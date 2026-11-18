@@ -1,4 +1,4 @@
-# Multi-Agent AI System for Automated Frontend Development and QA Testing
+# DevForge AI — Multi-Agent System for Automated Frontend Development and QA Testing
 
 An autonomous, collaborative two-agent engineering architecture designed to convert website reference designs into production-ready modular Astro applications and validate them using automated visual, responsive, and functional quality assurance.
 
@@ -196,7 +196,7 @@ Open your browser to `http://localhost:3000`.
 
 ## 5. End-to-End Technical Demonstration
 
-Follow the step-by-step workflow detailed in [`docs/presentation_guide.md`](file:///C:/Users/sunda/.gemini/antigravity/scratch/AI-Agent-PoC/docs/presentation_guide.md):
+Follow the step-by-step workflow detailed in [`docs/presentation_guide.md`](file:///C:/Users/sunda/OneDrive/Documents/AI-Agent-PoC/docs/presentation_guide.md):
 
 1. **Dashboard Overview**: Review real-time metrics, target design verification (RDGCC.com), and the latest QA pass rate.
 2. **Design Input**: Submit a screenshot or PDF. Click **Start Analysis & Generation**.

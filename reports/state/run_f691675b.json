@@ -1,0 +1,1632 @@
+{
+  "run_id": "run_f691675b",
+  "project_name": "RDGCC Corporate Website",
+  "status": "COMPLETED",
+  "current_iteration": 3,
+  "max_iterations": 3,
+  "design_input_path": "uploads/rdgcc_reference.png",
+  "figma_url": null,
+  "design_analysis": {
+    "project_name": "RDGCC Corporate Regional Portal",
+    "brand_identity": "Prestigious Gulf Cooperation Council (GCC) regional development, engineering, and industrial investment holding. Clean architectural layout with high-contrast corporate navy, warm desert gold accents, crisp typography, and spacious grid hierarchy.",
+    "colors": [
+      {
+        "name": "primary-dark",
+        "hex": "#0A192F",
+        "usage": "Header, Hero backdrop, Footer, Primary headings"
+      },
+      {
+        "name": "accent-gold",
+        "hex": "#C29B38",
+        "usage": "Brand accents, CTA buttons, active navigation, metric highlights"
+      },
+      {
+        "name": "accent-gold-hover",
+        "hex": "#D4AF37",
+        "usage": "Button hover states, interactive focus rings"
+      },
+      {
+        "name": "surface-light",
+        "hex": "#F8FAFC",
+        "usage": "Alternating section backgrounds, card containers"
+      },
+      {
+        "name": "surface-white",
+        "hex": "#FFFFFF",
+        "usage": "Main card surfaces, navigation background"
+      },
+      {
+        "name": "text-muted",
+        "hex": "#64748B",
+        "usage": "Secondary body text, subtitles, meta descriptors"
+      },
+      {
+        "name": "border-subtle",
+        "hex": "#E2E8F0",
+        "usage": "Dividers, card outlines, table borders"
+      }
+    ],
+    "typography": [
+      {
+        "element": "h1",
+        "font_family": "'Plus Jakarta Sans', Inter, sans-serif",
+        "size": "3rem",
+        "weight": "700",
+        "line_height": "1.15"
+      },
+      {
+        "element": "h2",
+        "font_family": "'Plus Jakarta Sans', Inter, sans-serif",
+        "size": "2.25rem",
+        "weight": "700",
+        "line_height": "1.2"
+      },
+      {
+        "element": "h3",
+        "font_family": "'Plus Jakarta Sans', Inter, sans-serif",
+        "size": "1.5rem",
+        "weight": "600",
+        "line_height": "1.3"
+      },
+      {
+        "element": "body",
+        "font_family": "'Inter', sans-serif",
+        "size": "1rem",
+        "weight": "400",
+        "line_height": "1.6"
+      },
+      {
+        "element": "nav",
+        "font_family": "'Inter', sans-serif",
+        "size": "0.9375rem",
+        "weight": "500",
+        "line_height": "1.4"
+      },
+      {
+        "element": "metric",
+        "font_family": "'Plus Jakarta Sans', Inter, sans-serif",
+        "size": "2.75rem",
+        "weight": "800",
+        "line_height": "1.0"
+      }
+    ],
+    "sections": [
+      {
+        "id": "header",
+        "name": "Corporate Header & Navigation",
+        "component_name": "Header.astro",
+        "description": "Sticky top bar with RDGCC logo, language switcher (EN/AR), corporate navigation menu, and inquiry CTA.",
+        "estimated_height_ratio": 0.08,
+        "data_keys": [
+          "navigation",
+          "brand"
+        ]
+      },
+      {
+        "id": "hero",
+        "name": "Strategic Vision Hero",
+        "component_name": "Hero.astro",
+        "description": "Hero banner showcasing regional investment mission, strategic headlines, primary & secondary action buttons.",
+        "estimated_height_ratio": 0.25,
+        "data_keys": [
+          "hero"
+        ]
+      },
+      {
+        "id": "about",
+        "name": "About RDGCC & Executive Vision",
+        "component_name": "About.astro",
+        "description": "Two-column strategic narrative detailing GCC expansion, historical legacy, and values.",
+        "estimated_height_ratio": 0.18,
+        "data_keys": [
+          "about"
+        ]
+      },
+      {
+        "id": "sectors",
+        "name": "Strategic Business Sectors",
+        "component_name": "Sectors.astro",
+        "description": "Interactive 4-card sector grid: Energy & Industrial, Maritime Logistics, Infrastructure & Real Estate, Sustainable Technology.",
+        "estimated_height_ratio": 0.22,
+        "data_keys": [
+          "sectors"
+        ]
+      },
+      {
+        "id": "stats",
+        "name": "Key Performance Indicators",
+        "component_name": "Stats.astro",
+        "description": "4-column metric counters highlighting portfolio value, regional hubs, operational years, and compliance score.",
+        "estimated_height_ratio": 0.1,
+        "data_keys": [
+          "stats"
+        ]
+      },
+      {
+        "id": "projects",
+        "name": "Featured Strategic Projects",
+        "component_name": "Projects.astro",
+        "description": "Card gallery showcasing flagship GCC developments with category tags and overview metrics.",
+        "estimated_height_ratio": 0.2,
+        "data_keys": [
+          "projects"
+        ]
+      },
+      {
+        "id": "contact",
+        "name": "Regional Presence & Inquiry",
+        "component_name": "Contact.astro",
+        "description": "Corporate contact form with sector inquiry dropdown and regional headquarters directory.",
+        "estimated_height_ratio": 0.15,
+        "data_keys": [
+          "contact",
+          "offices"
+        ]
+      },
+      {
+        "id": "footer",
+        "name": "Corporate Footer",
+        "component_name": "Footer.astro",
+        "description": "Multi-column directory with legal disclaimers, Sanity-ready structured links, and copyright.",
+        "estimated_height_ratio": 0.12,
+        "data_keys": [
+          "footer",
+          "socials"
+        ]
+      }
+    ],
+    "layout_type": "corporate-holding-portal",
+    "assumptions_and_limitations": [
+      "Generated in deterministic mode without live cloud vision LLM credits.",
+      "Dynamic video background in Hero section is adapted to optimized responsive picture element.",
+      "Multi-language switcher (EN/AR) is styled for LTR layout with RTL-ready tokens."
+    ]
+  },
+  "manifest_history": [
+    {
+      "project_id": "run_f691675b",
+      "version": 1,
+      "project_name": "RDGCC Corporate Regional Portal",
+      "output_directory": "generated_projects/run_f691675b",
+      "components": [
+        {
+          "filename": "MainLayout.astro",
+          "path": "src/layouts/MainLayout.astro",
+          "content": "---\n// src/layouts/MainLayout.astro\nimport '../styles/global.css';\n\ninterface Props {\n  title?: string;\n  description?: string;\n}\n\nconst { \n  title = \"RDGCC | Regional Development & Strategic GCC Investment Holding\",\n  description = \"RDGCC drives strategic regional investment, infrastructure development, and industrial transformation across the GCC.\"\n} = Astro.props;\n---\n\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content={description} />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">\n    <title>{title}</title>\n  </head>\n  <body class=\"bg-surface text-slate-800 antialiased min-h-screen flex flex-col\">\n    <slot />\n  </body>\n</html>\n",
+          "is_layout": true,
+          "description": "Main responsive HTML boilerplate layout with Google fonts and metadata."
+        },
+        {
+          "filename": "Navigation.astro",
+          "path": "src/components/Navigation.astro",
+          "content": "---\n// src/components/Navigation.astro\nimport { navigationMenu } from '../data/homepage.js';\n---\n\n<nav class=\"hidden md:flex items-center space-x-8\" aria-label=\"Main Navigation\">\n  {navigationMenu.map((item) => (\n    <a \n      href={item.href}\n      class=\"text-sm font-medium text-slate-200 hover:text-amber-400 transition-colors duration-200 py-1\"\n    >\n      {item.label}\n    </a>\n  ))}\n</nav>\n",
+          "is_layout": false,
+          "description": "Navigation bar with semantic anchor links."
+        },
+        {
+          "filename": "Header.astro",
+          "path": "src/components/Header.astro",
+          "content": "---\n// src/components/Header.astro\nimport Navigation from './Navigation.astro';\nimport { siteSettings } from '../data/homepage.js';\n---\n\n<header class=\"sticky top-0 z-50 bg-[#0A192F] border-b border-slate-800/80 backdrop-blur-md shadow-md\">\n  <div class=\"container-custom\">\n    <div class=\"flex items-center justify-between h-20\">\n      \n      <!-- Brand Logo -->\n      <a href=\"/\" class=\"flex items-center space-x-3 text-white no-underline group\" aria-label=\"RDGCC Homepage\">\n        <div class=\"w-10 h-10 rounded bg-gradient-to-br from-[#C29B38] to-[#997722] flex items-center justify-center font-bold text-white text-lg tracking-wider shadow\">\n          R\n        </div>\n        <div class=\"flex flex-col\">\n          <span class=\"font-heading font-extrabold text-xl tracking-tight text-white group-hover:text-amber-400 transition-colors\">\n            {siteSettings.logoText}\n          </span>\n          <span class=\"text-[10px] uppercase tracking-widest text-slate-400 font-medium\">\n            GCC Holdings\n          </span>\n        </div>\n      </a>\n\n      <!-- Desktop Navigation -->\n      <Navigation />\n\n      <!-- Utility: Language & CTA -->\n      <div class=\"flex items-center space-x-4\">\n        <div class=\"hidden sm:flex items-center bg-slate-900/60 rounded border border-slate-700/60 p-1 text-xs font-semibold\">\n          {siteSettings.languages.map((lang) => (\n            <button \n              type=\"button\"\n              class={`px-2 py-0.5 rounded transition-colors ${lang.active ? 'bg-[#C29B38] text-white' : 'text-slate-400 hover:text-white'}`}\n              aria-label={`Switch to ${lang.label}`}\n            >\n              {lang.label}\n            </button>\n          ))}\n        </div>\n\n        <a href=\"#contact\" class=\"btn-primary text-xs !py-2 !px-4\">\n          Contact Us\n        </a>\n      </div>\n\n    </div>\n  </div>\n</header>\n",
+          "is_layout": false,
+          "description": "Sticky corporate header with logo, language selector, and navigation."
+        },
+        {
+          "filename": "Hero.astro",
+          "path": "src/components/Hero.astro",
+          "content": "---\n// src/components/Hero.astro\nimport { heroContent } from '../data/homepage.js';\n---\n\n<section id=\"hero\" class=\"relative bg-[#0A192F] text-white py-24 md:py-32 overflow-hidden border-b border-slate-800\">\n  <!-- Subtle Architectural Grid Background -->\n  <div class=\"absolute inset-0 opacity-10 pointer-events-none\" style=\"background-image: radial-gradient(#C29B38 1px, transparent 1px); background-size: 32px 32px;\"></div>\n  <div class=\"absolute -top-40 -right-40 w-96 h-96 bg-[#C29B38]/10 rounded-full blur-3xl pointer-events-none\"></div>\n\n  <div class=\"container-custom relative z-10\">\n    <div class=\"max-w-3xl\">\n      \n      <!-- Badge -->\n      <div class=\"inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-800/80 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6\">\n        <span class=\"w-2 h-2 rounded-full bg-amber-400 animate-pulse\"></span>\n        <span>{heroContent.badge}</span>\n      </div>\n\n      <!-- Headline -->\n      <h1 class=\"hero-headline text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-6 font-heading\">\n        {heroContent.headline}\n      </h1>\n\n      <!-- Subheadline -->\n      <p class=\"text-lg md:text-xl text-slate-300 font-normal leading-relaxed mb-10 max-w-2xl\">\n        {heroContent.subheadline}\n      </p>\n\n      <!-- Action Buttons -->\n      <div class=\"flex flex-wrap items-center gap-4\">\n        <a href={heroContent.primaryCta.href} class=\"btn-primary\" id=\"hero-primary-cta\">\n          {heroContent.primaryCta.label}\n          <svg class=\"w-4 h-4 ml-2\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 5l7 7m0 0l-7 7m7-7H3\"/>\n          </svg>\n        </a>\n        <a href={heroContent.secondaryCta.href} class=\"btn-outline\" id=\"hero-secondary-cta\">\n          {heroContent.secondaryCta.label}\n        </a>\n      </div>\n\n    </div>\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "Hero section with primary & secondary CTAs and architectural badge."
+        },
+        {
+          "filename": "About.astro",
+          "path": "src/components/About.astro",
+          "content": "---\n// src/components/About.astro\nimport { aboutContent } from '../data/homepage.js';\n---\n\n<section id=\"about\" class=\"py-20 md:py-28 bg-[#FFFFFF] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 items-start\">\n      \n      <!-- Narrative Column -->\n      <div class=\"lg:col-span-6\">\n        <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n          {aboutContent.badge}\n        </span>\n        <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight mb-6 font-heading\">\n          {aboutContent.title}\n        </h2>\n        <p class=\"text-slate-600 text-base md:text-lg mb-6 leading-relaxed\">\n          {aboutContent.paragraphOne}\n        </p>\n        <p class=\"text-slate-600 text-base md:text-lg leading-relaxed\">\n          {aboutContent.paragraphTwo}\n        </p>\n      </div>\n\n      <!-- Strategic Pillars Column -->\n      <div class=\"lg:col-span-6 space-y-4\">\n        {aboutContent.pillars.map((pillar, idx) => (\n          <div class=\"p-6 rounded-lg bg-slate-50 border border-slate-200/80 hover:border-amber-400/60 transition-all duration-200 shadow-sm\">\n            <div class=\"flex items-center space-x-3 mb-2\">\n              <span class=\"w-7 h-7 rounded-full bg-[#0A192F] text-[#C29B38] text-xs font-bold flex items-center justify-center\">\n                0{idx + 1}\n              </span>\n              <h3 class=\"text-lg font-bold text-[#0A192F] font-heading\">\n                {pillar.title}\n              </h3>\n            </div>\n            <p class=\"text-sm text-slate-600 pl-10\">\n              {pillar.description}\n            </p>\n          </div>\n        ))}\n      </div>\n\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "About RDGCC narrative section with structured strategic pillars."
+        },
+        {
+          "filename": "Sectors.astro",
+          "path": "src/components/Sectors.astro",
+          "content": "---\n// src/components/Sectors.astro\nimport { sectorsData } from '../data/homepage.js';\n---\n\n<section id=\"sectors\" class=\"py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"text-center max-w-2xl mx-auto mb-16\">\n      <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n        Core Competencies\n      </span>\n      <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading\">\n        Strategic Business Sectors\n      </h2>\n      <p class=\"text-slate-600 mt-4 text-base\">\n        Deploying patient capital and engineering mastery across resilient foundational industries.\n      </p>\n    </div>\n\n    <!-- 4-Column Grid -->\n    <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6\">\n      {sectorsData.map((sec) => (\n        <article class=\"sector-card bg-white p-7 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between\">\n          <div>\n            <div class=\"flex items-center justify-between mb-4\">\n              <div class=\"w-10 h-10 rounded-lg bg-amber-500/10 text-[#C29B38] flex items-center justify-center font-bold\">\n                <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\" />\n                </svg>\n              </div>\n              <span class=\"text-xs font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700\">\n                {sec.statsHighlight}\n              </span>\n            </div>\n\n            <h3 class=\"text-xl font-bold text-[#0A192F] mb-3 font-heading\">\n              {sec.title}\n            </h3>\n\n            <p class=\"text-sm text-slate-600 leading-relaxed mb-6\">\n              {sec.description}\n            </p>\n          </div>\n\n          <div>\n            <div class=\"border-t border-slate-100 pt-4\">\n              <ul class=\"space-y-1.5\">\n                {sec.capabilities.map((cap) => (\n                  <li class=\"text-xs text-slate-500 flex items-center space-x-2\">\n                    <span class=\"w-1.5 h-1.5 rounded-full bg-[#C29B38]\"></span>\n                    <span>{cap}</span>\n                  </li>\n                ))}\n              </ul>\n            </div>\n          </div>\n        </article>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "4-column responsive business sector grid."
+        },
+        {
+          "filename": "Stats.astro",
+          "path": "src/components/Stats.astro",
+          "content": "---\n// src/components/Stats.astro\nimport { statsMetrics } from '../data/homepage.js';\n---\n\n<section id=\"stats\" class=\"py-16 bg-[#0A192F] text-white border-b border-slate-800\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800\">\n      {statsMetrics.map((item, idx) => (\n        <div class={`px-4 ${idx > 0 ? 'pt-6 md:pt-0' : ''}`}>\n          <div class=\"text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#C29B38] font-heading tracking-tight mb-2\">\n            {item.value}\n          </div>\n          <div class=\"text-sm font-semibold text-slate-200 uppercase tracking-wider mb-1\">\n            {item.label}\n          </div>\n          <p class=\"text-xs text-slate-400\">\n            {item.description}\n          </p>\n        </div>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "4-column KPI metrics counter with gold highlights."
+        },
+        {
+          "filename": "Projects.astro",
+          "path": "src/components/Projects.astro",
+          "content": "---\n// src/components/Projects.astro\nimport { featuredProjects } from '../data/homepage.js';\n---\n\n<section id=\"projects\" class=\"py-20 md:py-28 bg-white border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"flex flex-col md:flex-row md:items-end justify-between mb-12\">\n      <div>\n        <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n          Track Record\n        </span>\n        <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading\">\n          Flagship GCC Developments\n        </h2>\n      </div>\n      <p class=\"text-sm text-slate-500 max-w-md mt-4 md:mt-0\">\n        Pioneering infrastructure projects delivered on schedule with sovereign-grade operational benchmarks.\n      </p>\n    </div>\n\n    <!-- 3-Column Project Grid -->\n    <div class=\"grid grid-cols-1 md:grid-cols-3 gap-8\">\n      {featuredProjects.map((proj) => (\n        <div class=\"bg-slate-50 rounded-xl overflow-hidden border border-slate-200/90 hover:shadow-lg transition-all duration-300 flex flex-col justify-between\">\n          <!-- Placeholder Graphic / Header Bar -->\n          <div class=\"h-44 bg-gradient-to-tr from-[#0A192F] to-[#1E293B] relative p-6 flex flex-col justify-between\">\n            <span class=\"inline-block px-3 py-1 rounded bg-[#C29B38] text-white text-xs font-bold self-start\">\n              {proj.sector}\n            </span>\n            <div class=\"text-slate-300 text-xs font-medium\">\n              Location: <span class=\"text-white font-semibold\">{proj.location}</span>\n            </div>\n          </div>\n\n          <div class=\"p-6 flex-grow flex flex-col justify-between\">\n            <div>\n              <div class=\"text-xs text-[#C29B38] font-bold mb-1\">Delivered: {proj.year}</div>\n              <h3 class=\"text-xl font-bold text-[#0A192F] mb-3 font-heading\">\n                {proj.title}\n              </h3>\n              <p class=\"text-sm text-slate-600 leading-relaxed mb-6\">\n                {proj.summary}\n              </p>\n            </div>\n\n            <a href=\"#contact\" class=\"text-xs font-bold text-[#0A192F] hover:text-[#C29B38] inline-flex items-center space-x-1.5 transition-colors\">\n              <span>View Strategic Brief</span>\n              <svg class=\"w-3.5 h-3.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\" />\n              </svg>\n            </a>\n          </div>\n        </div>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "3-card flagship projects showcase with details and location tags."
+        },
+        {
+          "filename": "Contact.astro",
+          "path": "src/components/Contact.astro",
+          "content": "---\n// src/components/Contact.astro\nimport { contactDetails } from '../data/homepage.js';\n---\n\n<section id=\"contact\" class=\"py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden\">\n      <div class=\"grid grid-cols-1 md:grid-cols-12\">\n        \n        <!-- Info Column -->\n        <div class=\"bg-[#0A192F] text-white p-8 md:p-12 md:col-span-5 flex flex-col justify-between\">\n          <div>\n            <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n              Regional Presence\n            </span>\n            <h2 class=\"text-2xl md:text-3xl font-extrabold text-white mb-6 font-heading\">\n              Initiate Inquiries\n            </h2>\n            <p class=\"text-slate-300 text-sm leading-relaxed mb-8\">\n              Connect directly with our institutional investment and project development leadership.\n            </p>\n\n            <div class=\"space-y-4 text-xs text-slate-300\">\n              <div>\n                <strong class=\"text-white block mb-0.5\">Headquarters:</strong>\n                {contactDetails.headquarters}\n              </div>\n              <div>\n                <strong class=\"text-white block mb-0.5\">Telephone:</strong>\n                {contactDetails.phone}\n              </div>\n              <div>\n                <strong class=\"text-white block mb-0.5\">Direct Correspondence:</strong>\n                {contactDetails.email}\n              </div>\n            </div>\n          </div>\n\n          <div class=\"mt-8 pt-6 border-t border-slate-800 text-[11px] text-slate-400\">\n            Confidentiality assured under standard institutional covenants.\n          </div>\n        </div>\n\n        <!-- Interactive Form Column (For Functional QA Testing) -->\n        <div class=\"p-8 md:p-12 md:col-span-7\">\n          <form id=\"contact-form\" class=\"space-y-5\" onsubmit=\"event.preventDefault(); alert('Inquiry submitted successfully.');\">\n            <div>\n              <label for=\"contact-name\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Full Name *\n              </label>\n              <input \n                type=\"text\" \n                id=\"contact-name\" \n                name=\"name\" \n                required \n                placeholder=\"Sheikh / Executive Name\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              />\n            </div>\n\n            <div>\n              <label for=\"contact-email\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Corporate Email *\n              </label>\n              <input \n                type=\"email\" \n                id=\"contact-email\" \n                name=\"email\" \n                required \n                placeholder=\"executive@institution.com\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              />\n            </div>\n\n            <div>\n              <label for=\"contact-sector\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Area of Interest *\n              </label>\n              <select \n                id=\"contact-sector\" \n                name=\"sector\" \n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition bg-white\"\n              >\n                {contactDetails.inquiryTypes.map((t) => (\n                  <option value={t}>{t}</option>\n                ))}\n              </select>\n            </div>\n\n            <div>\n              <label for=\"contact-message\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Brief Proposal / Inquiries\n              </label>\n              <textarea \n                id=\"contact-message\" \n                name=\"message\" \n                rows=\"3\" \n                placeholder=\"Summary of strategic inquiry...\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              ></textarea>\n            </div>\n\n            <button \n              type=\"submit\" \n              id=\"submit-inquiry-btn\" \n              class=\"btn-primary w-full text-center\"\n            >\n              Submit Strategic Inquiry\n            </button>\n          </form>\n        </div>\n\n      </div>\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "Functional corporate inquiry form with inputs and contact information."
+        },
+        {
+          "filename": "Footer.astro",
+          "path": "src/components/Footer.astro",
+          "content": "---\n// src/components/Footer.astro\nimport { siteSettings, navigationMenu } from '../data/homepage.js';\n---\n\n<footer class=\"bg-[#050C1A] text-slate-400 py-16 border-t border-slate-800\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 mb-12\">\n      \n      <!-- Brand Summary -->\n      <div class=\"md:col-span-5\">\n        <div class=\"flex items-center space-x-3 mb-4\">\n          <div class=\"w-8 h-8 rounded bg-[#C29B38] text-white font-bold flex items-center justify-center text-sm\">\n            R\n          </div>\n          <span class=\"text-white font-heading font-extrabold text-lg tracking-tight\">\n            {siteSettings.companyName}\n          </span>\n        </div>\n        <p class=\"text-xs text-slate-400 leading-relaxed max-w-sm mb-6\">\n          Regional holding corporation advancing sustainable prosperity, industrial independence, and institutional excellence across the Gulf Cooperation Council.\n        </p>\n        <div class=\"text-xs text-slate-500\">\n          Regional Offices: {siteSettings.regionalOffices.join(\" • \")}\n        </div>\n      </div>\n\n      <!-- Quick Links -->\n      <div class=\"md:col-span-3\">\n        <h4 class=\"text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading\">\n          Navigation\n        </h4>\n        <ul class=\"space-y-2 text-xs\">\n          {navigationMenu.map((item) => (\n            <li>\n              <a href={item.href} class=\"hover:text-amber-400 transition-colors\">\n                {item.label}\n              </a>\n            </li>\n          ))}\n        </ul>\n      </div>\n\n      <!-- Compliance & Governance -->\n      <div class=\"md:col-span-4\">\n        <h4 class=\"text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading\">\n          Governance & Standards\n        </h4>\n        <p class=\"text-xs text-slate-400 leading-relaxed mb-4\">\n          All investments and operational mandates adhere to strict sovereign regulatory compliances, CMA guidelines, and ESG disclosure standards.\n        </p>\n        <div class=\"inline-flex items-center px-3 py-1.5 rounded bg-slate-900 border border-slate-800 text-[11px] text-amber-400\">\n          ISO 9001:2015 & ISO 14001 Certified\n        </div>\n      </div>\n\n    </div>\n\n    <div class=\"pt-8 border-t border-slate-900 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between\">\n      <div>\n        &copy; {new Date().getFullYear()} {siteSettings.companyName}. All Rights Reserved.\n      </div>\n      <div class=\"flex space-x-6 mt-4 sm:mt-0\">\n        <a href=\"#about\" class=\"hover:text-slate-400 transition-colors\">Privacy Charter</a>\n        <a href=\"#about\" class=\"hover:text-slate-400 transition-colors\">Terms of Investment</a>\n        <a href=\"#contact\" class=\"hover:text-slate-400 transition-colors\">Security Disclosures</a>\n      </div>\n    </div>\n\n  </div>\n</footer>\n",
+          "is_layout": false,
+          "description": "Comprehensive corporate footer with quick links and governance disclaimers."
+        },
+        {
+          "filename": "index.astro",
+          "path": "src/pages/index.astro",
+          "content": "---\n// src/pages/index.astro\n// Main Composition Page - Assembles all modular components cleanly into MainLayout.\nimport MainLayout from '../layouts/MainLayout.astro';\nimport Header from '../components/Header.astro';\nimport Hero from '../components/Hero.astro';\nimport About from '../components/About.astro';\nimport Sectors from '../components/Sectors.astro';\nimport Stats from '../components/Stats.astro';\nimport Projects from '../components/Projects.astro';\nimport Contact from '../components/Contact.astro';\nimport Footer from '../components/Footer.astro';\n---\n\n<MainLayout title=\"RDGCC | Regional Development & Strategic GCC Investment Holding\">\n  <Header />\n  <main id=\"main-content\">\n    <Hero />\n    <About />\n    <Sectors />\n    <Stats />\n    <Projects />\n    <Contact />\n  </main>\n  <Footer />\n</MainLayout>\n",
+          "is_layout": false,
+          "description": "Master index page importing and assembling modular sections."
+        }
+      ],
+      "structured_content_file": "// src/data/homepage.js\n// Structured Content Architecture (Sanity CMS Ready)\n// Decouples editorial data from frontend layout and components.\n\nexport const siteSettings = {\n  companyName: \"RDGCC Holdings\",\n  logoText: \"RDGCC\",\n  tagline: \"Regional Development & Strategic Growth\",\n  contactEmail: \"inquiries@rdgcc.com\",\n  regionalOffices: [\"Riyadh, KSA\", \"Dubai, UAE\", \"Manama, Bahrain\", \"Doha, Qatar\"],\n  languages: [\n    { code: \"en\", label: \"EN\", active: true },\n    { code: \"ar\", label: \"العربية\", active: false }\n  ]\n};\n\nexport const navigationMenu = [\n  { label: \"Overview\", href: \"#about\" },\n  { label: \"Sectors\", href: \"#sectors\" },\n  { label: \"Performance\", href: \"#stats\" },\n  { label: \"Projects\", href: \"#projects\" },\n  { label: \"Contact\", href: \"#contact\" }\n];\n\nexport const heroContent = {\n  badge: \"Strategic GCC Investment Holding\",\n  headline: \"Empowering Regional Excellence and Strategic Growth Across the GCC\",\n  subheadline: \"RDGCC drives transformative capital, pioneering industrial infrastructure, and sustainable value creation across Gulf Cooperation Council economies.\",\n  primaryCta: { label: \"Explore Our Sectors\", href: \"#sectors\" },\n  secondaryCta: { label: \"Corporate Overview\", href: \"#about\" }\n};\n\nexport const aboutContent = {\n  badge: \"About RDGCC\",\n  title: \"Building Resilient Infrastructure for a Sustainable Arabian Future\",\n  paragraphOne: \"For over three decades, RDGCC has served as a catalyst for sovereign and private development across Saudi Arabia and the wider GCC region. We partner with institutional leaders to deploy innovative engineering, energy infrastructure, and industrial manufacturing capacity.\",\n  paragraphTwo: \"Our commitment to Vision 2030 and GCC unified growth frameworks establishes sustainable economic ecosystems built for multi-generational returns.\",\n  pillars: [\n    { title: \"Strategic Capital\", description: \"Targeted regional equity investments in sovereign-priority sectors.\" },\n    { title: \"Industrial Innovation\", description: \"Deploying advanced manufacturing, logistics automation, and clean technologies.\" },\n    { title: \"Governance & ESG\", description: \"Institutional excellence adhering to international sustainability benchmarks.\" }\n  ]\n};\n\nexport const sectorsData = [\n  {\n    id: \"energy\",\n    title: \"Energy & Industrial Services\",\n    icon: \"bolt\",\n    statsHighlight: \"1.4 GW Capacity\",\n    description: \"Developing clean power grids, EPC infrastructure, and specialized offshore servicing supporting GCC energy transitions.\",\n    capabilities: [\"Renewable Microgrids\", \"Petrochemical Processing\", \"Offshore Support Vessels\"]\n  },\n  {\n    id: \"maritime\",\n    title: \"Maritime & Port Logistics\",\n    icon: \"ship\",\n    statsHighlight: \"4.8M TEU Handled\",\n    description: \"Operating multi-modal logistics corridors, deepwater container terminals, and integrated supply networks connecting East and West.\",\n    capabilities: [\"Automated Port Operations\", \"Cold Chain Logistics\", \"Bunkering Facilities\"]\n  },\n  {\n    id: \"infrastructure\",\n    title: \"Real Estate & Strategic Infrastructure\",\n    icon: \"building\",\n    statsHighlight: \"12M+ Sq. Ft. Built\",\n    description: \"Master-planned industrial cities, commercial logistics hubs, and sustainable urban developments across major GCC trade hubs.\",\n    capabilities: [\"Industrial Free Zones\", \"Specialized Tech Parks\", \"Smart City Utilities\"]\n  },\n  {\n    id: \"technology\",\n    title: \"Sustainable Tech & Materials\",\n    icon: \"cpu\",\n    statsHighlight: \"35% Carbon Reduction\",\n    description: \"Pioneering circular economy initiatives, green hydrogen applications, and digital twin technology for heavy industry.\",\n    capabilities: [\"Green Hydrogen\", \"Advanced Composites\", \"Autonomous Fleet Telemetry\"]\n  }\n];\n\nexport const statsMetrics = [\n  { value: \"$3.8B+\", label: \"Assets Under Management\", description: \"Institutional investment portfolio\" },\n  { value: \"18+\", label: \"Regional Hubs\", description: \"Presence across GCC member states\" },\n  { value: \"32\", label: \"Years of Heritage\", description: \"Delivering regional industrial milestones\" },\n  { value: \"99.4%\", label: \"Safety & Compliance\", description: \"HSE international Gold Standard\" }\n];\n\nexport const featuredProjects = [\n  {\n    title: \"King Salman Maritime Gateway\",\n    sector: \"Maritime Logistics\",\n    location: \"Ras Al Khair, KSA\",\n    year: \"2024\",\n    summary: \"Integrated mega-hub incorporating automated dry docks, container feeder terminals, and AI-driven harbor control.\"\n  },\n  {\n    title: \"Gulf Clean Energy Microgrid\",\n    sector: \"Renewable Energy\",\n    location: \"Yanbu Industrial City, KSA\",\n    year: \"2023\",\n    summary: \"Utility-scale 450MW solar and battery storage installation powering heavy manufacturing facilities.\"\n  },\n  {\n    title: \"Al-Sharq Trade & Logistics Freezone\",\n    sector: \"Infrastructure\",\n    location: \"Dammam, KSA\",\n    year: \"2024\",\n    summary: \"2.4M square meter master-planned bonded logistics facility with multimodal rail and sea access.\"\n  }\n];\n\nexport const contactDetails = {\n  headquarters: \"RDGCC Tower, King Fahd Road, Riyadh, Kingdom of Saudi Arabia\",\n  phone: \"+966 11 400 9200\",\n  email: \"contact@rdgcc.com\",\n  inquiryTypes: [\"General Corporate\", \"Investment & Partnerships\", \"Supply Chain & Procurement\", \"Media Inquiries\"]\n};\n",
+      "sanity_schemas": [
+        {
+          "schema_name": "homepage",
+          "title": "Homepage Document Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'homepage',\n  title: 'Homepage Content',\n  type: 'document',\n  fields: [\n    {\n      name: 'hero',\n      title: 'Hero Section',\n      type: 'object',\n      fields: [\n        { name: 'tagline', title: 'Badge Tagline', type: 'string' },\n        { name: 'headline', title: 'Main Headline', type: 'string' },\n        { name: 'subheadline', title: 'Subheadline', type: 'text' },\n        { name: 'primaryCta', title: 'Primary CTA Label', type: 'string' },\n        { name: 'secondaryCta', title: 'Secondary CTA Label', type: 'string' }\n      ]\n    },\n    {\n      name: 'about',\n      title: 'About Section',\n      type: 'object',\n      fields: [\n        { name: 'badge', title: 'Section Badge', type: 'string' },\n        { name: 'title', title: 'Section Title', type: 'string' },\n        { name: 'paragraphOne', title: 'Strategic Narrative', type: 'text' },\n        { name: 'paragraphTwo', title: 'Operational Overview', type: 'text' },\n        { name: 'keyPillars', title: 'Strategic Pillars', type: 'array', of: [{ type: 'string' }] }\n      ]\n    },\n    {\n      name: 'stats',\n      title: 'Key Performance Indicators',\n      type: 'array',\n      of: [\n        {\n          type: 'object',\n          fields: [\n            { name: 'value', title: 'Metric Value', type: 'string' },\n            { name: 'label', title: 'Metric Label', type: 'string' },\n            { name: 'description', title: 'Brief Detail', type: 'string' }\n          ]\n        }\n      ]\n    }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "sector",
+          "title": "Strategic Business Sector Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'sector',\n  title: 'Strategic Business Sector',\n  type: 'document',\n  fields: [\n    { name: 'id', title: 'Sector ID', type: 'string' },\n    { name: 'title', title: 'Sector Title', type: 'string' },\n    { name: 'description', title: 'Overview', type: 'text' },\n    { name: 'icon', title: 'Icon Identifier', type: 'string' },\n    { name: 'statsHighlight', title: 'Key Metric', type: 'string' },\n    { name: 'capabilities', title: 'Core Capabilities', type: 'array', of: [{ type: 'string' }] }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "featuredProject",
+          "title": "Featured Strategic Project Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'featuredProject',\n  title: 'Strategic Project',\n  type: 'document',\n  fields: [\n    { name: 'title', title: 'Project Name', type: 'string' },\n    { name: 'sector', title: 'Sector Category', type: 'string' },\n    { name: 'location', title: 'Regional Hub', type: 'string' },\n    { name: 'year', title: 'Completion Year', type: 'string' },\n    { name: 'summary', title: 'Executive Summary', type: 'text' }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "siteSettings",
+          "title": "Site Settings & Global Navigation Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'siteSettings',\n  title: 'Global Corporate Settings',\n  type: 'document',\n  fields: [\n    { name: 'companyName', title: 'Company Name', type: 'string' },\n    { name: 'logoText', title: 'Logo Text / Brand', type: 'string' },\n    { name: 'languageDefault', title: 'Default Language', type: 'string' },\n    {\n      name: 'navigation',\n      title: 'Main Navigation Menu',\n      type: 'array',\n      of: [\n        {\n          type: 'object',\n          fields: [\n            { name: 'label', title: 'Menu Label', type: 'string' },\n            { name: 'href', title: 'Target Anchor / URL', type: 'string' }\n          ]\n        }\n      ]\n    },\n    { name: 'contactEmail', title: 'Inquiries Email', type: 'string' },\n    { name: 'headquarters', title: 'Regional Headquarters', type: 'string' }\n  ]\n};\n"
+        }
+      ],
+      "global_css": "/* Reset and Modern Typography */\n*, *::before, *::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\n:root {\n  --color-primary: #0A192F;\n  --color-primary-light: #112240;\n  --color-accent: #C29B38;\n  --color-accent-hover: #D4AF37;\n  --color-surface: #F8FAFC;\n  --color-surface-white: #FFFFFF;\n  --color-text-main: #1E293B;\n  --color-text-muted: #64748B;\n  --color-border: #E2E8F0;\n  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;\n  --font-body: 'Inter', system-ui, -apple-system, sans-serif;\n}\n\nhtml {\n  font-family: var(--font-body);\n  color: var(--color-text-main);\n  background-color: var(--color-surface);\n  scroll-behavior: smooth;\n  -webkit-font-smoothing: antialiased;\n}\n\nbody {\n  line-height: 1.6;\n  overflow-x: hidden;\n  width: 100%;\n}\n\nh1, h2, h3, h4, .font-heading {\n  font-family: var(--font-heading);\n  letter-spacing: -0.02em;\n}\n\n/* Container Utility */\n.container-custom {\n  max-width: 1280px;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n/* Button Utilities */\n.btn-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background-color: var(--color-accent);\n  color: #FFFFFF;\n  font-weight: 600;\n  font-size: 0.9375rem;\n  padding: 0.75rem 1.75rem;\n  border-radius: 0.375rem;\n  text-decoration: none;\n  transition: all 0.2s ease-in-out;\n  border: 1px solid transparent;\n  cursor: pointer;\n}\n\n.btn-primary:hover {\n  background-color: var(--color-accent-hover);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(194, 155, 56, 0.25);\n}\n\n.btn-outline {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n  color: #FFFFFF;\n  border: 1px solid rgba(255, 255, 255, 0.4);\n  font-weight: 600;\n  font-size: 0.9375rem;\n  padding: 0.75rem 1.75rem;\n  border-radius: 0.375rem;\n  text-decoration: none;\n  transition: all 0.2s ease-in-out;\n  cursor: pointer;\n}\n\n.btn-outline:hover {\n  background-color: rgba(255, 255, 255, 0.1);\n  border-color: #FFFFFF;\n}\n\n/* Card Hover Effects */\n.sector-card {\n  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;\n}\n\n.sector-card:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 12px 24px -4px rgba(10, 25, 47, 0.08);\n  border-color: var(--color-accent);\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n  .hero-headline {\n    font-size: 2.25rem !important;\n  }\n}\n",
+      "package_json": "{\n  \"name\": \"rdgcc-corporate-astro\",\n  \"type\": \"module\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"dev\": \"astro dev --port 4321\",\n    \"start\": \"astro dev --port 4321\",\n    \"build\": \"astro build\",\n    \"preview\": \"astro preview\"\n  },\n  \"dependencies\": {\n    \"astro\": \"^4.15.0\"\n  }\n}\n",
+      "astro_config": "import { defineConfig } from 'astro/config';\n\nexport default defineConfig({\n  server: {\n    port: 4321,\n    host: true\n  }\n});\n",
+      "build_valid": true,
+      "validation_errors": [],
+      "assumptions": [
+        "Generated in deterministic mode without live cloud vision LLM credits.",
+        "Dynamic video background in Hero section is adapted to optimized responsive picture element.",
+        "Multi-language switcher (EN/AR) is styled for LTR layout with RTL-ready tokens."
+      ]
+    },
+    {
+      "project_id": "run_f691675b",
+      "version": 2,
+      "project_name": "RDGCC Corporate Regional Portal",
+      "output_directory": "generated_projects/run_f691675b_v2",
+      "components": [
+        {
+          "filename": "MainLayout.astro",
+          "path": "src/layouts/MainLayout.astro",
+          "content": "---\n// src/layouts/MainLayout.astro\nimport '../styles/global.css';\n\ninterface Props {\n  title?: string;\n  description?: string;\n}\n\nconst { \n  title = \"RDGCC | Regional Development & Strategic GCC Investment Holding\",\n  description = \"RDGCC drives strategic regional investment, infrastructure development, and industrial transformation across the GCC.\"\n} = Astro.props;\n---\n\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content={description} />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">\n    <title>{title}</title>\n  </head>\n  <body class=\"bg-surface text-slate-800 antialiased min-h-screen flex flex-col\">\n    <slot />\n  </body>\n</html>\n",
+          "is_layout": true,
+          "description": "Main responsive HTML boilerplate layout with Google fonts and metadata."
+        },
+        {
+          "filename": "Navigation.astro",
+          "path": "src/components/Navigation.astro",
+          "content": "---\n// src/components/Navigation.astro\nimport { navigationMenu } from '../data/homepage.js';\n---\n\n<nav class=\"hidden md:flex items-center space-x-8\" aria-label=\"Main Navigation\">\n  {navigationMenu.map((item) => (\n    <a \n      href={item.href}\n      class=\"text-sm font-medium text-slate-200 hover:text-amber-400 transition-colors duration-200 py-1\"\n    >\n      {item.label}\n    </a>\n  ))}\n</nav>\n",
+          "is_layout": false,
+          "description": "Navigation bar with semantic anchor links."
+        },
+        {
+          "filename": "Header.astro",
+          "path": "src/components/Header.astro",
+          "content": "---\n// src/components/Header.astro\nimport Navigation from './Navigation.astro';\nimport { siteSettings } from '../data/homepage.js';\n---\n\n<header class=\"sticky top-0 z-50 bg-[#0A192F] border-b border-slate-800/80 backdrop-blur-md shadow-md\">\n  <div class=\"container-custom\">\n    <div class=\"flex items-center justify-between h-20\">\n      \n      <!-- Brand Logo -->\n      <a href=\"/\" class=\"flex items-center space-x-3 text-white no-underline group\" aria-label=\"RDGCC Homepage\">\n        <div class=\"w-10 h-10 rounded bg-gradient-to-br from-[#C29B38] to-[#997722] flex items-center justify-center font-bold text-white text-lg tracking-wider shadow\">\n          R\n        </div>\n        <div class=\"flex flex-col\">\n          <span class=\"font-heading font-extrabold text-xl tracking-tight text-white group-hover:text-amber-400 transition-colors\">\n            {siteSettings.logoText}\n          </span>\n          <span class=\"text-[10px] uppercase tracking-widest text-slate-400 font-medium\">\n            GCC Holdings\n          </span>\n        </div>\n      </a>\n\n      <!-- Desktop Navigation -->\n      <Navigation />\n\n      <!-- Utility: Language & CTA -->\n      <div class=\"flex items-center space-x-4\">\n        <div class=\"hidden sm:flex items-center bg-slate-900/60 rounded border border-slate-700/60 p-1 text-xs font-semibold\">\n          {siteSettings.languages.map((lang) => (\n            <button \n              type=\"button\"\n              class={`px-2 py-0.5 rounded transition-colors ${lang.active ? 'bg-[#C29B38] text-white' : 'text-slate-400 hover:text-white'}`}\n              aria-label={`Switch to ${lang.label}`}\n            >\n              {lang.label}\n            </button>\n          ))}\n        </div>\n\n        <a href=\"#contact\" class=\"btn-primary text-xs !py-2 !px-4\">\n          Contact Us\n        </a>\n      </div>\n\n    </div>\n  </div>\n</header>\n",
+          "is_layout": false,
+          "description": "Sticky corporate header with logo, language selector, and navigation."
+        },
+        {
+          "filename": "Hero.astro",
+          "path": "src/components/Hero.astro",
+          "content": "---\n// src/components/Hero.astro\nimport { heroContent } from '../data/homepage.js';\n---\n\n<section id=\"hero\" class=\"relative bg-[#0A192F] text-white py-24 md:py-32 overflow-hidden border-b border-slate-800\">\n  <!-- Subtle Architectural Grid Background -->\n  <div class=\"absolute inset-0 opacity-10 pointer-events-none\" style=\"background-image: radial-gradient(#C29B38 1px, transparent 1px); background-size: 32px 32px;\"></div>\n  <div class=\"absolute -top-40 -right-40 w-96 h-96 bg-[#C29B38]/10 rounded-full blur-3xl pointer-events-none\"></div>\n\n  <div class=\"container-custom relative z-10\">\n    <div class=\"max-w-3xl\">\n      \n      <!-- Badge -->\n      <div class=\"inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-800/80 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6\">\n        <span class=\"w-2 h-2 rounded-full bg-amber-400 animate-pulse\"></span>\n        <span>{heroContent.badge}</span>\n      </div>\n\n      <!-- Headline -->\n      <h1 class=\"hero-headline text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-6 font-heading\">\n        {heroContent.headline}\n      </h1>\n\n      <!-- Subheadline -->\n      <p class=\"text-lg md:text-xl text-slate-300 font-normal leading-relaxed mb-10 max-w-2xl\">\n        {heroContent.subheadline}\n      </p>\n\n      <!-- Action Buttons -->\n      <div class=\"flex flex-wrap items-center gap-4\">\n        <a href={heroContent.primaryCta.href} class=\"btn-primary\" id=\"hero-primary-cta\">\n          {heroContent.primaryCta.label}\n          <svg class=\"w-4 h-4 ml-2\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 5l7 7m0 0l-7 7m7-7H3\"/>\n          </svg>\n        </a>\n        <a href={heroContent.secondaryCta.href} class=\"btn-outline\" id=\"hero-secondary-cta\">\n          {heroContent.secondaryCta.label}\n        </a>\n      </div>\n\n    </div>\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "Hero section with primary & secondary CTAs and architectural badge."
+        },
+        {
+          "filename": "About.astro",
+          "path": "src/components/About.astro",
+          "content": "---\n// src/components/About.astro\nimport { aboutContent } from '../data/homepage.js';\n---\n\n<section id=\"about\" class=\"py-20 md:py-28 bg-[#FFFFFF] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 items-start\">\n      \n      <!-- Narrative Column -->\n      <div class=\"lg:col-span-6\">\n        <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n          {aboutContent.badge}\n        </span>\n        <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight mb-6 font-heading\">\n          {aboutContent.title}\n        </h2>\n        <p class=\"text-slate-600 text-base md:text-lg mb-6 leading-relaxed\">\n          {aboutContent.paragraphOne}\n        </p>\n        <p class=\"text-slate-600 text-base md:text-lg leading-relaxed\">\n          {aboutContent.paragraphTwo}\n        </p>\n      </div>\n\n      <!-- Strategic Pillars Column -->\n      <div class=\"lg:col-span-6 space-y-4\">\n        {aboutContent.pillars.map((pillar, idx) => (\n          <div class=\"p-6 rounded-lg bg-slate-50 border border-slate-200/80 hover:border-amber-400/60 transition-all duration-200 shadow-sm\">\n            <div class=\"flex items-center space-x-3 mb-2\">\n              <span class=\"w-7 h-7 rounded-full bg-[#0A192F] text-[#C29B38] text-xs font-bold flex items-center justify-center\">\n                0{idx + 1}\n              </span>\n              <h3 class=\"text-lg font-bold text-[#0A192F] font-heading\">\n                {pillar.title}\n              </h3>\n            </div>\n            <p class=\"text-sm text-slate-600 pl-10\">\n              {pillar.description}\n            </p>\n          </div>\n        ))}\n      </div>\n\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "About RDGCC narrative section with structured strategic pillars."
+        },
+        {
+          "filename": "Sectors.astro",
+          "path": "src/components/Sectors.astro",
+          "content": "---\n// src/components/Sectors.astro\nimport { sectorsData } from '../data/homepage.js';\n---\n\n<section id=\"sectors\" class=\"py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"text-center max-w-2xl mx-auto mb-16\">\n      <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n        Core Competencies\n      </span>\n      <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading\">\n        Strategic Business Sectors\n      </h2>\n      <p class=\"text-slate-600 mt-4 text-base\">\n        Deploying patient capital and engineering mastery across resilient foundational industries.\n      </p>\n    </div>\n\n    <!-- 4-Column Grid -->\n    <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6\">\n      {sectorsData.map((sec) => (\n        <article class=\"sector-card bg-white p-7 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between\">\n          <div>\n            <div class=\"flex items-center justify-between mb-4\">\n              <div class=\"w-10 h-10 rounded-lg bg-amber-500/10 text-[#C29B38] flex items-center justify-center font-bold\">\n                <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\" />\n                </svg>\n              </div>\n              <span class=\"text-xs font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700\">\n                {sec.statsHighlight}\n              </span>\n            </div>\n\n            <h3 class=\"text-xl font-bold text-[#0A192F] mb-3 font-heading\">\n              {sec.title}\n            </h3>\n\n            <p class=\"text-sm text-slate-600 leading-relaxed mb-6\">\n              {sec.description}\n            </p>\n          </div>\n\n          <div>\n            <div class=\"border-t border-slate-100 pt-4\">\n              <ul class=\"space-y-1.5\">\n                {sec.capabilities.map((cap) => (\n                  <li class=\"text-xs text-slate-500 flex items-center space-x-2\">\n                    <span class=\"w-1.5 h-1.5 rounded-full bg-[#C29B38]\"></span>\n                    <span>{cap}</span>\n                  </li>\n                ))}\n              </ul>\n            </div>\n          </div>\n        </article>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "4-column responsive business sector grid."
+        },
+        {
+          "filename": "Stats.astro",
+          "path": "src/components/Stats.astro",
+          "content": "---\n// src/components/Stats.astro\nimport { statsMetrics } from '../data/homepage.js';\n---\n\n<section id=\"stats\" class=\"py-16 bg-[#0A192F] text-white border-b border-slate-800\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800\">\n      {statsMetrics.map((item, idx) => (\n        <div class={`px-4 ${idx > 0 ? 'pt-6 md:pt-0' : ''}`}>\n          <div class=\"text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#C29B38] font-heading tracking-tight mb-2\">\n            {item.value}\n          </div>\n          <div class=\"text-sm font-semibold text-slate-200 uppercase tracking-wider mb-1\">\n            {item.label}\n          </div>\n          <p class=\"text-xs text-slate-400\">\n            {item.description}\n          </p>\n        </div>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "4-column KPI metrics counter with gold highlights."
+        },
+        {
+          "filename": "Projects.astro",
+          "path": "src/components/Projects.astro",
+          "content": "---\n// src/components/Projects.astro\nimport { featuredProjects } from '../data/homepage.js';\n---\n\n<section id=\"projects\" class=\"py-20 md:py-28 bg-white border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"flex flex-col md:flex-row md:items-end justify-between mb-12\">\n      <div>\n        <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n          Track Record\n        </span>\n        <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading\">\n          Flagship GCC Developments\n        </h2>\n      </div>\n      <p class=\"text-sm text-slate-500 max-w-md mt-4 md:mt-0\">\n        Pioneering infrastructure projects delivered on schedule with sovereign-grade operational benchmarks.\n      </p>\n    </div>\n\n    <!-- 3-Column Project Grid -->\n    <div class=\"grid grid-cols-1 md:grid-cols-3 gap-8\">\n      {featuredProjects.map((proj) => (\n        <div class=\"bg-slate-50 rounded-xl overflow-hidden border border-slate-200/90 hover:shadow-lg transition-all duration-300 flex flex-col justify-between\">\n          <!-- Placeholder Graphic / Header Bar -->\n          <div class=\"h-44 bg-gradient-to-tr from-[#0A192F] to-[#1E293B] relative p-6 flex flex-col justify-between\">\n            <span class=\"inline-block px-3 py-1 rounded bg-[#C29B38] text-white text-xs font-bold self-start\">\n              {proj.sector}\n            </span>\n            <div class=\"text-slate-300 text-xs font-medium\">\n              Location: <span class=\"text-white font-semibold\">{proj.location}</span>\n            </div>\n          </div>\n\n          <div class=\"p-6 flex-grow flex flex-col justify-between\">\n            <div>\n              <div class=\"text-xs text-[#C29B38] font-bold mb-1\">Delivered: {proj.year}</div>\n              <h3 class=\"text-xl font-bold text-[#0A192F] mb-3 font-heading\">\n                {proj.title}\n              </h3>\n              <p class=\"text-sm text-slate-600 leading-relaxed mb-6\">\n                {proj.summary}\n              </p>\n            </div>\n\n            <a href=\"#contact\" class=\"text-xs font-bold text-[#0A192F] hover:text-[#C29B38] inline-flex items-center space-x-1.5 transition-colors\">\n              <span>View Strategic Brief</span>\n              <svg class=\"w-3.5 h-3.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\" />\n              </svg>\n            </a>\n          </div>\n        </div>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "3-card flagship projects showcase with details and location tags."
+        },
+        {
+          "filename": "Contact.astro",
+          "path": "src/components/Contact.astro",
+          "content": "---\n// src/components/Contact.astro\nimport { contactDetails } from '../data/homepage.js';\n---\n\n<section id=\"contact\" class=\"py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden\">\n      <div class=\"grid grid-cols-1 md:grid-cols-12\">\n        \n        <!-- Info Column -->\n        <div class=\"bg-[#0A192F] text-white p-8 md:p-12 md:col-span-5 flex flex-col justify-between\">\n          <div>\n            <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n              Regional Presence\n            </span>\n            <h2 class=\"text-2xl md:text-3xl font-extrabold text-white mb-6 font-heading\">\n              Initiate Inquiries\n            </h2>\n            <p class=\"text-slate-300 text-sm leading-relaxed mb-8\">\n              Connect directly with our institutional investment and project development leadership.\n            </p>\n\n            <div class=\"space-y-4 text-xs text-slate-300\">\n              <div>\n                <strong class=\"text-white block mb-0.5\">Headquarters:</strong>\n                {contactDetails.headquarters}\n              </div>\n              <div>\n                <strong class=\"text-white block mb-0.5\">Telephone:</strong>\n                {contactDetails.phone}\n              </div>\n              <div>\n                <strong class=\"text-white block mb-0.5\">Direct Correspondence:</strong>\n                {contactDetails.email}\n              </div>\n            </div>\n          </div>\n\n          <div class=\"mt-8 pt-6 border-t border-slate-800 text-[11px] text-slate-400\">\n            Confidentiality assured under standard institutional covenants.\n          </div>\n        </div>\n\n        <!-- Interactive Form Column (For Functional QA Testing) -->\n        <div class=\"p-8 md:p-12 md:col-span-7\">\n          <form id=\"contact-form\" class=\"space-y-5\" onsubmit=\"event.preventDefault(); alert('Inquiry submitted successfully.');\">\n            <div>\n              <label for=\"contact-name\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Full Name *\n              </label>\n              <input \n                type=\"text\" \n                id=\"contact-name\" \n                name=\"name\" \n                required \n                placeholder=\"Sheikh / Executive Name\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              />\n            </div>\n\n            <div>\n              <label for=\"contact-email\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Corporate Email *\n              </label>\n              <input \n                type=\"email\" \n                id=\"contact-email\" \n                name=\"email\" \n                required \n                placeholder=\"executive@institution.com\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              />\n            </div>\n\n            <div>\n              <label for=\"contact-sector\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Area of Interest *\n              </label>\n              <select \n                id=\"contact-sector\" \n                name=\"sector\" \n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition bg-white\"\n              >\n                {contactDetails.inquiryTypes.map((t) => (\n                  <option value={t}>{t}</option>\n                ))}\n              </select>\n            </div>\n\n            <div>\n              <label for=\"contact-message\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Brief Proposal / Inquiries\n              </label>\n              <textarea \n                id=\"contact-message\" \n                name=\"message\" \n                rows=\"3\" \n                placeholder=\"Summary of strategic inquiry...\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              ></textarea>\n            </div>\n\n            <button \n              type=\"submit\" \n              id=\"submit-inquiry-btn\" \n              class=\"btn-primary w-full text-center\"\n            >\n              Submit Strategic Inquiry\n            </button>\n          </form>\n        </div>\n\n      </div>\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "Functional corporate inquiry form with inputs and contact information."
+        },
+        {
+          "filename": "Footer.astro",
+          "path": "src/components/Footer.astro",
+          "content": "---\n// src/components/Footer.astro\nimport { siteSettings, navigationMenu } from '../data/homepage.js';\n---\n\n<footer class=\"bg-[#050C1A] text-slate-400 py-16 border-t border-slate-800\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 mb-12\">\n      \n      <!-- Brand Summary -->\n      <div class=\"md:col-span-5\">\n        <div class=\"flex items-center space-x-3 mb-4\">\n          <div class=\"w-8 h-8 rounded bg-[#C29B38] text-white font-bold flex items-center justify-center text-sm\">\n            R\n          </div>\n          <span class=\"text-white font-heading font-extrabold text-lg tracking-tight\">\n            {siteSettings.companyName}\n          </span>\n        </div>\n        <p class=\"text-xs text-slate-400 leading-relaxed max-w-sm mb-6\">\n          Regional holding corporation advancing sustainable prosperity, industrial independence, and institutional excellence across the Gulf Cooperation Council.\n        </p>\n        <div class=\"text-xs text-slate-500\">\n          Regional Offices: {siteSettings.regionalOffices.join(\" • \")}\n        </div>\n      </div>\n\n      <!-- Quick Links -->\n      <div class=\"md:col-span-3\">\n        <h4 class=\"text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading\">\n          Navigation\n        </h4>\n        <ul class=\"space-y-2 text-xs\">\n          {navigationMenu.map((item) => (\n            <li>\n              <a href={item.href} class=\"hover:text-amber-400 transition-colors\">\n                {item.label}\n              </a>\n            </li>\n          ))}\n        </ul>\n      </div>\n\n      <!-- Compliance & Governance -->\n      <div class=\"md:col-span-4\">\n        <h4 class=\"text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading\">\n          Governance & Standards\n        </h4>\n        <p class=\"text-xs text-slate-400 leading-relaxed mb-4\">\n          All investments and operational mandates adhere to strict sovereign regulatory compliances, CMA guidelines, and ESG disclosure standards.\n        </p>\n        <div class=\"inline-flex items-center px-3 py-1.5 rounded bg-slate-900 border border-slate-800 text-[11px] text-amber-400\">\n          ISO 9001:2015 & ISO 14001 Certified\n        </div>\n      </div>\n\n    </div>\n\n    <div class=\"pt-8 border-t border-slate-900 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between\">\n      <div>\n        &copy; {new Date().getFullYear()} {siteSettings.companyName}. All Rights Reserved.\n      </div>\n      <div class=\"flex space-x-6 mt-4 sm:mt-0\">\n        <a href=\"#about\" class=\"hover:text-slate-400 transition-colors\">Privacy Charter</a>\n        <a href=\"#about\" class=\"hover:text-slate-400 transition-colors\">Terms of Investment</a>\n        <a href=\"#contact\" class=\"hover:text-slate-400 transition-colors\">Security Disclosures</a>\n      </div>\n    </div>\n\n  </div>\n</footer>\n",
+          "is_layout": false,
+          "description": "Comprehensive corporate footer with quick links and governance disclaimers."
+        },
+        {
+          "filename": "index.astro",
+          "path": "src/pages/index.astro",
+          "content": "---\n// src/pages/index.astro\n// Main Composition Page - Assembles all modular components cleanly into MainLayout.\nimport MainLayout from '../layouts/MainLayout.astro';\nimport Header from '../components/Header.astro';\nimport Hero from '../components/Hero.astro';\nimport About from '../components/About.astro';\nimport Sectors from '../components/Sectors.astro';\nimport Stats from '../components/Stats.astro';\nimport Projects from '../components/Projects.astro';\nimport Contact from '../components/Contact.astro';\nimport Footer from '../components/Footer.astro';\n---\n\n<MainLayout title=\"RDGCC | Regional Development & Strategic GCC Investment Holding\">\n  <Header />\n  <main id=\"main-content\">\n    <Hero />\n    <About />\n    <Sectors />\n    <Stats />\n    <Projects />\n    <Contact />\n  </main>\n  <Footer />\n</MainLayout>\n",
+          "is_layout": false,
+          "description": "Master index page importing and assembling modular sections."
+        }
+      ],
+      "structured_content_file": "// src/data/homepage.js\n// Structured Content Architecture (Sanity CMS Ready)\n// Decouples editorial data from frontend layout and components.\n\nexport const siteSettings = {\n  companyName: \"RDGCC Holdings\",\n  logoText: \"RDGCC\",\n  tagline: \"Regional Development & Strategic Growth\",\n  contactEmail: \"inquiries@rdgcc.com\",\n  regionalOffices: [\"Riyadh, KSA\", \"Dubai, UAE\", \"Manama, Bahrain\", \"Doha, Qatar\"],\n  languages: [\n    { code: \"en\", label: \"EN\", active: true },\n    { code: \"ar\", label: \"العربية\", active: false }\n  ]\n};\n\nexport const navigationMenu = [\n  { label: \"Overview\", href: \"#about\" },\n  { label: \"Sectors\", href: \"#sectors\" },\n  { label: \"Performance\", href: \"#stats\" },\n  { label: \"Projects\", href: \"#projects\" },\n  { label: \"Contact\", href: \"#contact\" }\n];\n\nexport const heroContent = {\n  badge: \"Strategic GCC Investment Holding\",\n  headline: \"Empowering Regional Excellence and Strategic Growth Across the GCC\",\n  subheadline: \"RDGCC drives transformative capital, pioneering industrial infrastructure, and sustainable value creation across Gulf Cooperation Council economies.\",\n  primaryCta: { label: \"Explore Our Sectors\", href: \"#sectors\" },\n  secondaryCta: { label: \"Corporate Overview\", href: \"#about\" }\n};\n\nexport const aboutContent = {\n  badge: \"About RDGCC\",\n  title: \"Building Resilient Infrastructure for a Sustainable Arabian Future\",\n  paragraphOne: \"For over three decades, RDGCC has served as a catalyst for sovereign and private development across Saudi Arabia and the wider GCC region. We partner with institutional leaders to deploy innovative engineering, energy infrastructure, and industrial manufacturing capacity.\",\n  paragraphTwo: \"Our commitment to Vision 2030 and GCC unified growth frameworks establishes sustainable economic ecosystems built for multi-generational returns.\",\n  pillars: [\n    { title: \"Strategic Capital\", description: \"Targeted regional equity investments in sovereign-priority sectors.\" },\n    { title: \"Industrial Innovation\", description: \"Deploying advanced manufacturing, logistics automation, and clean technologies.\" },\n    { title: \"Governance & ESG\", description: \"Institutional excellence adhering to international sustainability benchmarks.\" }\n  ]\n};\n\nexport const sectorsData = [\n  {\n    id: \"energy\",\n    title: \"Energy & Industrial Services\",\n    icon: \"bolt\",\n    statsHighlight: \"1.4 GW Capacity\",\n    description: \"Developing clean power grids, EPC infrastructure, and specialized offshore servicing supporting GCC energy transitions.\",\n    capabilities: [\"Renewable Microgrids\", \"Petrochemical Processing\", \"Offshore Support Vessels\"]\n  },\n  {\n    id: \"maritime\",\n    title: \"Maritime & Port Logistics\",\n    icon: \"ship\",\n    statsHighlight: \"4.8M TEU Handled\",\n    description: \"Operating multi-modal logistics corridors, deepwater container terminals, and integrated supply networks connecting East and West.\",\n    capabilities: [\"Automated Port Operations\", \"Cold Chain Logistics\", \"Bunkering Facilities\"]\n  },\n  {\n    id: \"infrastructure\",\n    title: \"Real Estate & Strategic Infrastructure\",\n    icon: \"building\",\n    statsHighlight: \"12M+ Sq. Ft. Built\",\n    description: \"Master-planned industrial cities, commercial logistics hubs, and sustainable urban developments across major GCC trade hubs.\",\n    capabilities: [\"Industrial Free Zones\", \"Specialized Tech Parks\", \"Smart City Utilities\"]\n  },\n  {\n    id: \"technology\",\n    title: \"Sustainable Tech & Materials\",\n    icon: \"cpu\",\n    statsHighlight: \"35% Carbon Reduction\",\n    description: \"Pioneering circular economy initiatives, green hydrogen applications, and digital twin technology for heavy industry.\",\n    capabilities: [\"Green Hydrogen\", \"Advanced Composites\", \"Autonomous Fleet Telemetry\"]\n  }\n];\n\nexport const statsMetrics = [\n  { value: \"$3.8B+\", label: \"Assets Under Management\", description: \"Institutional investment portfolio\" },\n  { value: \"18+\", label: \"Regional Hubs\", description: \"Presence across GCC member states\" },\n  { value: \"32\", label: \"Years of Heritage\", description: \"Delivering regional industrial milestones\" },\n  { value: \"99.4%\", label: \"Safety & Compliance\", description: \"HSE international Gold Standard\" }\n];\n\nexport const featuredProjects = [\n  {\n    title: \"King Salman Maritime Gateway\",\n    sector: \"Maritime Logistics\",\n    location: \"Ras Al Khair, KSA\",\n    year: \"2024\",\n    summary: \"Integrated mega-hub incorporating automated dry docks, container feeder terminals, and AI-driven harbor control.\"\n  },\n  {\n    title: \"Gulf Clean Energy Microgrid\",\n    sector: \"Renewable Energy\",\n    location: \"Yanbu Industrial City, KSA\",\n    year: \"2023\",\n    summary: \"Utility-scale 450MW solar and battery storage installation powering heavy manufacturing facilities.\"\n  },\n  {\n    title: \"Al-Sharq Trade & Logistics Freezone\",\n    sector: \"Infrastructure\",\n    location: \"Dammam, KSA\",\n    year: \"2024\",\n    summary: \"2.4M square meter master-planned bonded logistics facility with multimodal rail and sea access.\"\n  }\n];\n\nexport const contactDetails = {\n  headquarters: \"RDGCC Tower, King Fahd Road, Riyadh, Kingdom of Saudi Arabia\",\n  phone: \"+966 11 400 9200\",\n  email: \"contact@rdgcc.com\",\n  inquiryTypes: [\"General Corporate\", \"Investment & Partnerships\", \"Supply Chain & Procurement\", \"Media Inquiries\"]\n};\n",
+      "sanity_schemas": [
+        {
+          "schema_name": "homepage",
+          "title": "Homepage Document Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'homepage',\n  title: 'Homepage Content',\n  type: 'document',\n  fields: [\n    {\n      name: 'hero',\n      title: 'Hero Section',\n      type: 'object',\n      fields: [\n        { name: 'tagline', title: 'Badge Tagline', type: 'string' },\n        { name: 'headline', title: 'Main Headline', type: 'string' },\n        { name: 'subheadline', title: 'Subheadline', type: 'text' },\n        { name: 'primaryCta', title: 'Primary CTA Label', type: 'string' },\n        { name: 'secondaryCta', title: 'Secondary CTA Label', type: 'string' }\n      ]\n    },\n    {\n      name: 'about',\n      title: 'About Section',\n      type: 'object',\n      fields: [\n        { name: 'badge', title: 'Section Badge', type: 'string' },\n        { name: 'title', title: 'Section Title', type: 'string' },\n        { name: 'paragraphOne', title: 'Strategic Narrative', type: 'text' },\n        { name: 'paragraphTwo', title: 'Operational Overview', type: 'text' },\n        { name: 'keyPillars', title: 'Strategic Pillars', type: 'array', of: [{ type: 'string' }] }\n      ]\n    },\n    {\n      name: 'stats',\n      title: 'Key Performance Indicators',\n      type: 'array',\n      of: [\n        {\n          type: 'object',\n          fields: [\n            { name: 'value', title: 'Metric Value', type: 'string' },\n            { name: 'label', title: 'Metric Label', type: 'string' },\n            { name: 'description', title: 'Brief Detail', type: 'string' }\n          ]\n        }\n      ]\n    }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "sector",
+          "title": "Strategic Business Sector Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'sector',\n  title: 'Strategic Business Sector',\n  type: 'document',\n  fields: [\n    { name: 'id', title: 'Sector ID', type: 'string' },\n    { name: 'title', title: 'Sector Title', type: 'string' },\n    { name: 'description', title: 'Overview', type: 'text' },\n    { name: 'icon', title: 'Icon Identifier', type: 'string' },\n    { name: 'statsHighlight', title: 'Key Metric', type: 'string' },\n    { name: 'capabilities', title: 'Core Capabilities', type: 'array', of: [{ type: 'string' }] }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "featuredProject",
+          "title": "Featured Strategic Project Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'featuredProject',\n  title: 'Strategic Project',\n  type: 'document',\n  fields: [\n    { name: 'title', title: 'Project Name', type: 'string' },\n    { name: 'sector', title: 'Sector Category', type: 'string' },\n    { name: 'location', title: 'Regional Hub', type: 'string' },\n    { name: 'year', title: 'Completion Year', type: 'string' },\n    { name: 'summary', title: 'Executive Summary', type: 'text' }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "siteSettings",
+          "title": "Site Settings & Global Navigation Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'siteSettings',\n  title: 'Global Corporate Settings',\n  type: 'document',\n  fields: [\n    { name: 'companyName', title: 'Company Name', type: 'string' },\n    { name: 'logoText', title: 'Logo Text / Brand', type: 'string' },\n    { name: 'languageDefault', title: 'Default Language', type: 'string' },\n    {\n      name: 'navigation',\n      title: 'Main Navigation Menu',\n      type: 'array',\n      of: [\n        {\n          type: 'object',\n          fields: [\n            { name: 'label', title: 'Menu Label', type: 'string' },\n            { name: 'href', title: 'Target Anchor / URL', type: 'string' }\n          ]\n        }\n      ]\n    },\n    { name: 'contactEmail', title: 'Inquiries Email', type: 'string' },\n    { name: 'headquarters', title: 'Regional Headquarters', type: 'string' }\n  ]\n};\n"
+        }
+      ],
+      "global_css": "/* Reset and Modern Typography */\n*, *::before, *::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\n:root {\n  --color-primary: #0A192F;\n  --color-primary-light: #112240;\n  --color-accent: #C29B38;\n  --color-accent-hover: #D4AF37;\n  --color-surface: #F8FAFC;\n  --color-surface-white: #FFFFFF;\n  --color-text-main: #1E293B;\n  --color-text-muted: #64748B;\n  --color-border: #E2E8F0;\n  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;\n  --font-body: 'Inter', system-ui, -apple-system, sans-serif;\n}\n\nhtml {\n  font-family: var(--font-body);\n  color: var(--color-text-main);\n  background-color: var(--color-surface);\n  scroll-behavior: smooth;\n  -webkit-font-smoothing: antialiased;\n}\n\nbody {\n  line-height: 1.6;\n  overflow-x: hidden;\n  width: 100%;\n}\n\nh1, h2, h3, h4, .font-heading {\n  font-family: var(--font-heading);\n  letter-spacing: -0.02em;\n}\n\n/* Container Utility */\n.container-custom {\n  max-width: 1280px;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n/* Button Utilities */\n.btn-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background-color: var(--color-accent);\n  color: #FFFFFF;\n  font-weight: 600;\n  font-size: 0.9375rem;\n  padding: 0.75rem 1.75rem;\n  border-radius: 0.375rem;\n  text-decoration: none;\n  transition: all 0.2s ease-in-out;\n  border: 1px solid transparent;\n  cursor: pointer;\n}\n\n.btn-primary:hover {\n  background-color: var(--color-accent-hover);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(194, 155, 56, 0.25);\n}\n\n.btn-outline {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n  color: #FFFFFF;\n  border: 1px solid rgba(255, 255, 255, 0.4);\n  font-weight: 600;\n  font-size: 0.9375rem;\n  padding: 0.75rem 1.75rem;\n  border-radius: 0.375rem;\n  text-decoration: none;\n  transition: all 0.2s ease-in-out;\n  cursor: pointer;\n}\n\n.btn-outline:hover {\n  background-color: rgba(255, 255, 255, 0.1);\n  border-color: #FFFFFF;\n}\n\n/* Card Hover Effects */\n.sector-card {\n  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;\n}\n\n.sector-card:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 12px 24px -4px rgba(10, 25, 47, 0.08);\n  border-color: var(--color-accent);\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n  .hero-headline {\n    font-size: 2.25rem !important;\n  }\n}\n",
+      "package_json": "{\n  \"name\": \"rdgcc-corporate-astro\",\n  \"type\": \"module\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"dev\": \"astro dev --port 4321\",\n    \"start\": \"astro dev --port 4321\",\n    \"build\": \"astro build\",\n    \"preview\": \"astro preview\"\n  },\n  \"dependencies\": {\n    \"astro\": \"^4.15.0\"\n  }\n}\n",
+      "astro_config": "import { defineConfig } from 'astro/config';\n\nexport default defineConfig({\n  server: {\n    port: 4321,\n    host: true\n  }\n});\n",
+      "build_valid": true,
+      "validation_errors": [],
+      "assumptions": [
+        "Generated in deterministic mode without live cloud vision LLM credits.",
+        "Dynamic video background in Hero section is adapted to optimized responsive picture element.",
+        "Multi-language switcher (EN/AR) is styled for LTR layout with RTL-ready tokens."
+      ]
+    },
+    {
+      "project_id": "run_f691675b",
+      "version": 3,
+      "project_name": "RDGCC Corporate Regional Portal",
+      "output_directory": "generated_projects/run_f691675b_v3",
+      "components": [
+        {
+          "filename": "MainLayout.astro",
+          "path": "src/layouts/MainLayout.astro",
+          "content": "---\n// src/layouts/MainLayout.astro\nimport '../styles/global.css';\n\ninterface Props {\n  title?: string;\n  description?: string;\n}\n\nconst { \n  title = \"RDGCC | Regional Development & Strategic GCC Investment Holding\",\n  description = \"RDGCC drives strategic regional investment, infrastructure development, and industrial transformation across the GCC.\"\n} = Astro.props;\n---\n\n<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content={description} />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap\" rel=\"stylesheet\">\n    <title>{title}</title>\n  </head>\n  <body class=\"bg-surface text-slate-800 antialiased min-h-screen flex flex-col\">\n    <slot />\n  </body>\n</html>\n",
+          "is_layout": true,
+          "description": "Main responsive HTML boilerplate layout with Google fonts and metadata."
+        },
+        {
+          "filename": "Navigation.astro",
+          "path": "src/components/Navigation.astro",
+          "content": "---\n// src/components/Navigation.astro\nimport { navigationMenu } from '../data/homepage.js';\n---\n\n<nav class=\"hidden md:flex items-center space-x-8\" aria-label=\"Main Navigation\">\n  {navigationMenu.map((item) => (\n    <a \n      href={item.href}\n      class=\"text-sm font-medium text-slate-200 hover:text-amber-400 transition-colors duration-200 py-1\"\n    >\n      {item.label}\n    </a>\n  ))}\n</nav>\n",
+          "is_layout": false,
+          "description": "Navigation bar with semantic anchor links."
+        },
+        {
+          "filename": "Header.astro",
+          "path": "src/components/Header.astro",
+          "content": "---\n// src/components/Header.astro\nimport Navigation from './Navigation.astro';\nimport { siteSettings } from '../data/homepage.js';\n---\n\n<header class=\"sticky top-0 z-50 bg-[#0A192F] border-b border-slate-800/80 backdrop-blur-md shadow-md\">\n  <div class=\"container-custom\">\n    <div class=\"flex items-center justify-between h-20\">\n      \n      <!-- Brand Logo -->\n      <a href=\"/\" class=\"flex items-center space-x-3 text-white no-underline group\" aria-label=\"RDGCC Homepage\">\n        <div class=\"w-10 h-10 rounded bg-gradient-to-br from-[#C29B38] to-[#997722] flex items-center justify-center font-bold text-white text-lg tracking-wider shadow\">\n          R\n        </div>\n        <div class=\"flex flex-col\">\n          <span class=\"font-heading font-extrabold text-xl tracking-tight text-white group-hover:text-amber-400 transition-colors\">\n            {siteSettings.logoText}\n          </span>\n          <span class=\"text-[10px] uppercase tracking-widest text-slate-400 font-medium\">\n            GCC Holdings\n          </span>\n        </div>\n      </a>\n\n      <!-- Desktop Navigation -->\n      <Navigation />\n\n      <!-- Utility: Language & CTA -->\n      <div class=\"flex items-center space-x-4\">\n        <div class=\"hidden sm:flex items-center bg-slate-900/60 rounded border border-slate-700/60 p-1 text-xs font-semibold\">\n          {siteSettings.languages.map((lang) => (\n            <button \n              type=\"button\"\n              class={`px-2 py-0.5 rounded transition-colors ${lang.active ? 'bg-[#C29B38] text-white' : 'text-slate-400 hover:text-white'}`}\n              aria-label={`Switch to ${lang.label}`}\n            >\n              {lang.label}\n            </button>\n          ))}\n        </div>\n\n        <a href=\"#contact\" class=\"btn-primary text-xs !py-2 !px-4\">\n          Contact Us\n        </a>\n      </div>\n\n    </div>\n  </div>\n</header>\n",
+          "is_layout": false,
+          "description": "Sticky corporate header with logo, language selector, and navigation."
+        },
+        {
+          "filename": "Hero.astro",
+          "path": "src/components/Hero.astro",
+          "content": "---\n// src/components/Hero.astro\nimport { heroContent } from '../data/homepage.js';\n---\n\n<section id=\"hero\" class=\"relative bg-[#0A192F] text-white py-24 md:py-32 overflow-hidden border-b border-slate-800\">\n  <!-- Subtle Architectural Grid Background -->\n  <div class=\"absolute inset-0 opacity-10 pointer-events-none\" style=\"background-image: radial-gradient(#C29B38 1px, transparent 1px); background-size: 32px 32px;\"></div>\n  <div class=\"absolute -top-40 -right-40 w-96 h-96 bg-[#C29B38]/10 rounded-full blur-3xl pointer-events-none\"></div>\n\n  <div class=\"container-custom relative z-10\">\n    <div class=\"max-w-3xl\">\n      \n      <!-- Badge -->\n      <div class=\"inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-slate-800/80 border border-amber-500/30 text-amber-400 text-xs font-semibold tracking-wider uppercase mb-6\">\n        <span class=\"w-2 h-2 rounded-full bg-amber-400 animate-pulse\"></span>\n        <span>{heroContent.badge}</span>\n      </div>\n\n      <!-- Headline -->\n      <h1 class=\"hero-headline text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-[1.12] mb-6 font-heading\">\n        {heroContent.headline}\n      </h1>\n\n      <!-- Subheadline -->\n      <p class=\"text-lg md:text-xl text-slate-300 font-normal leading-relaxed mb-10 max-w-2xl\">\n        {heroContent.subheadline}\n      </p>\n\n      <!-- Action Buttons -->\n      <div class=\"flex flex-wrap items-center gap-4\">\n        <a href={heroContent.primaryCta.href} class=\"btn-primary\" id=\"hero-primary-cta\">\n          {heroContent.primaryCta.label}\n          <svg class=\"w-4 h-4 ml-2\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n            <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 5l7 7m0 0l-7 7m7-7H3\"/>\n          </svg>\n        </a>\n        <a href={heroContent.secondaryCta.href} class=\"btn-outline\" id=\"hero-secondary-cta\">\n          {heroContent.secondaryCta.label}\n        </a>\n      </div>\n\n    </div>\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "Hero section with primary & secondary CTAs and architectural badge."
+        },
+        {
+          "filename": "About.astro",
+          "path": "src/components/About.astro",
+          "content": "---\n// src/components/About.astro\nimport { aboutContent } from '../data/homepage.js';\n---\n\n<section id=\"about\" class=\"py-20 md:py-28 bg-[#FFFFFF] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-1 lg:grid-cols-12 gap-12 items-start\">\n      \n      <!-- Narrative Column -->\n      <div class=\"lg:col-span-6\">\n        <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n          {aboutContent.badge}\n        </span>\n        <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight mb-6 font-heading\">\n          {aboutContent.title}\n        </h2>\n        <p class=\"text-slate-600 text-base md:text-lg mb-6 leading-relaxed\">\n          {aboutContent.paragraphOne}\n        </p>\n        <p class=\"text-slate-600 text-base md:text-lg leading-relaxed\">\n          {aboutContent.paragraphTwo}\n        </p>\n      </div>\n\n      <!-- Strategic Pillars Column -->\n      <div class=\"lg:col-span-6 space-y-4\">\n        {aboutContent.pillars.map((pillar, idx) => (\n          <div class=\"p-6 rounded-lg bg-slate-50 border border-slate-200/80 hover:border-amber-400/60 transition-all duration-200 shadow-sm\">\n            <div class=\"flex items-center space-x-3 mb-2\">\n              <span class=\"w-7 h-7 rounded-full bg-[#0A192F] text-[#C29B38] text-xs font-bold flex items-center justify-center\">\n                0{idx + 1}\n              </span>\n              <h3 class=\"text-lg font-bold text-[#0A192F] font-heading\">\n                {pillar.title}\n              </h3>\n            </div>\n            <p class=\"text-sm text-slate-600 pl-10\">\n              {pillar.description}\n            </p>\n          </div>\n        ))}\n      </div>\n\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "About RDGCC narrative section with structured strategic pillars."
+        },
+        {
+          "filename": "Sectors.astro",
+          "path": "src/components/Sectors.astro",
+          "content": "---\n// src/components/Sectors.astro\nimport { sectorsData } from '../data/homepage.js';\n---\n\n<section id=\"sectors\" class=\"py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"text-center max-w-2xl mx-auto mb-16\">\n      <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n        Core Competencies\n      </span>\n      <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading\">\n        Strategic Business Sectors\n      </h2>\n      <p class=\"text-slate-600 mt-4 text-base\">\n        Deploying patient capital and engineering mastery across resilient foundational industries.\n      </p>\n    </div>\n\n    <!-- 4-Column Grid -->\n    <div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6\">\n      {sectorsData.map((sec) => (\n        <article class=\"sector-card bg-white p-7 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between\">\n          <div>\n            <div class=\"flex items-center justify-between mb-4\">\n              <div class=\"w-10 h-10 rounded-lg bg-amber-500/10 text-[#C29B38] flex items-center justify-center font-bold\">\n                <svg class=\"w-5 h-5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 10V3L4 14h7v7l9-11h-7z\" />\n                </svg>\n              </div>\n              <span class=\"text-xs font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700\">\n                {sec.statsHighlight}\n              </span>\n            </div>\n\n            <h3 class=\"text-xl font-bold text-[#0A192F] mb-3 font-heading\">\n              {sec.title}\n            </h3>\n\n            <p class=\"text-sm text-slate-600 leading-relaxed mb-6\">\n              {sec.description}\n            </p>\n          </div>\n\n          <div>\n            <div class=\"border-t border-slate-100 pt-4\">\n              <ul class=\"space-y-1.5\">\n                {sec.capabilities.map((cap) => (\n                  <li class=\"text-xs text-slate-500 flex items-center space-x-2\">\n                    <span class=\"w-1.5 h-1.5 rounded-full bg-[#C29B38]\"></span>\n                    <span>{cap}</span>\n                  </li>\n                ))}\n              </ul>\n            </div>\n          </div>\n        </article>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "4-column responsive business sector grid."
+        },
+        {
+          "filename": "Stats.astro",
+          "path": "src/components/Stats.astro",
+          "content": "---\n// src/components/Stats.astro\nimport { statsMetrics } from '../data/homepage.js';\n---\n\n<section id=\"stats\" class=\"py-16 bg-[#0A192F] text-white border-b border-slate-800\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-slate-800\">\n      {statsMetrics.map((item, idx) => (\n        <div class={`px-4 ${idx > 0 ? 'pt-6 md:pt-0' : ''}`}>\n          <div class=\"text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#C29B38] font-heading tracking-tight mb-2\">\n            {item.value}\n          </div>\n          <div class=\"text-sm font-semibold text-slate-200 uppercase tracking-wider mb-1\">\n            {item.label}\n          </div>\n          <p class=\"text-xs text-slate-400\">\n            {item.description}\n          </p>\n        </div>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "4-column KPI metrics counter with gold highlights."
+        },
+        {
+          "filename": "Projects.astro",
+          "path": "src/components/Projects.astro",
+          "content": "---\n// src/components/Projects.astro\nimport { featuredProjects } from '../data/homepage.js';\n---\n\n<section id=\"projects\" class=\"py-20 md:py-28 bg-white border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"flex flex-col md:flex-row md:items-end justify-between mb-12\">\n      <div>\n        <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n          Track Record\n        </span>\n        <h2 class=\"text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading\">\n          Flagship GCC Developments\n        </h2>\n      </div>\n      <p class=\"text-sm text-slate-500 max-w-md mt-4 md:mt-0\">\n        Pioneering infrastructure projects delivered on schedule with sovereign-grade operational benchmarks.\n      </p>\n    </div>\n\n    <!-- 3-Column Project Grid -->\n    <div class=\"grid grid-cols-1 md:grid-cols-3 gap-8\">\n      {featuredProjects.map((proj) => (\n        <div class=\"bg-slate-50 rounded-xl overflow-hidden border border-slate-200/90 hover:shadow-lg transition-all duration-300 flex flex-col justify-between\">\n          <!-- Placeholder Graphic / Header Bar -->\n          <div class=\"h-44 bg-gradient-to-tr from-[#0A192F] to-[#1E293B] relative p-6 flex flex-col justify-between\">\n            <span class=\"inline-block px-3 py-1 rounded bg-[#C29B38] text-white text-xs font-bold self-start\">\n              {proj.sector}\n            </span>\n            <div class=\"text-slate-300 text-xs font-medium\">\n              Location: <span class=\"text-white font-semibold\">{proj.location}</span>\n            </div>\n          </div>\n\n          <div class=\"p-6 flex-grow flex flex-col justify-between\">\n            <div>\n              <div class=\"text-xs text-[#C29B38] font-bold mb-1\">Delivered: {proj.year}</div>\n              <h3 class=\"text-xl font-bold text-[#0A192F] mb-3 font-heading\">\n                {proj.title}\n              </h3>\n              <p class=\"text-sm text-slate-600 leading-relaxed mb-6\">\n                {proj.summary}\n              </p>\n            </div>\n\n            <a href=\"#contact\" class=\"text-xs font-bold text-[#0A192F] hover:text-[#C29B38] inline-flex items-center space-x-1.5 transition-colors\">\n              <span>View Strategic Brief</span>\n              <svg class=\"w-3.5 h-3.5\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 5l7 7-7 7\" />\n              </svg>\n            </a>\n          </div>\n        </div>\n      ))}\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "3-card flagship projects showcase with details and location tags."
+        },
+        {
+          "filename": "Contact.astro",
+          "path": "src/components/Contact.astro",
+          "content": "---\n// src/components/Contact.astro\nimport { contactDetails } from '../data/homepage.js';\n---\n\n<section id=\"contact\" class=\"py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200\">\n  <div class=\"container-custom\">\n    \n    <div class=\"max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden\">\n      <div class=\"grid grid-cols-1 md:grid-cols-12\">\n        \n        <!-- Info Column -->\n        <div class=\"bg-[#0A192F] text-white p-8 md:p-12 md:col-span-5 flex flex-col justify-between\">\n          <div>\n            <span class=\"text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2\">\n              Regional Presence\n            </span>\n            <h2 class=\"text-2xl md:text-3xl font-extrabold text-white mb-6 font-heading\">\n              Initiate Inquiries\n            </h2>\n            <p class=\"text-slate-300 text-sm leading-relaxed mb-8\">\n              Connect directly with our institutional investment and project development leadership.\n            </p>\n\n            <div class=\"space-y-4 text-xs text-slate-300\">\n              <div>\n                <strong class=\"text-white block mb-0.5\">Headquarters:</strong>\n                {contactDetails.headquarters}\n              </div>\n              <div>\n                <strong class=\"text-white block mb-0.5\">Telephone:</strong>\n                {contactDetails.phone}\n              </div>\n              <div>\n                <strong class=\"text-white block mb-0.5\">Direct Correspondence:</strong>\n                {contactDetails.email}\n              </div>\n            </div>\n          </div>\n\n          <div class=\"mt-8 pt-6 border-t border-slate-800 text-[11px] text-slate-400\">\n            Confidentiality assured under standard institutional covenants.\n          </div>\n        </div>\n\n        <!-- Interactive Form Column (For Functional QA Testing) -->\n        <div class=\"p-8 md:p-12 md:col-span-7\">\n          <form id=\"contact-form\" class=\"space-y-5\" onsubmit=\"event.preventDefault(); alert('Inquiry submitted successfully.');\">\n            <div>\n              <label for=\"contact-name\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Full Name *\n              </label>\n              <input \n                type=\"text\" \n                id=\"contact-name\" \n                name=\"name\" \n                required \n                placeholder=\"Sheikh / Executive Name\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              />\n            </div>\n\n            <div>\n              <label for=\"contact-email\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Corporate Email *\n              </label>\n              <input \n                type=\"email\" \n                id=\"contact-email\" \n                name=\"email\" \n                required \n                placeholder=\"executive@institution.com\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              />\n            </div>\n\n            <div>\n              <label for=\"contact-sector\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Area of Interest *\n              </label>\n              <select \n                id=\"contact-sector\" \n                name=\"sector\" \n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition bg-white\"\n              >\n                {contactDetails.inquiryTypes.map((t) => (\n                  <option value={t}>{t}</option>\n                ))}\n              </select>\n            </div>\n\n            <div>\n              <label for=\"contact-message\" class=\"block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5\">\n                Brief Proposal / Inquiries\n              </label>\n              <textarea \n                id=\"contact-message\" \n                name=\"message\" \n                rows=\"3\" \n                placeholder=\"Summary of strategic inquiry...\"\n                class=\"w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition\"\n              ></textarea>\n            </div>\n\n            <button \n              type=\"submit\" \n              id=\"submit-inquiry-btn\" \n              class=\"btn-primary w-full text-center\"\n            >\n              Submit Strategic Inquiry\n            </button>\n          </form>\n        </div>\n\n      </div>\n    </div>\n\n  </div>\n</section>\n",
+          "is_layout": false,
+          "description": "Functional corporate inquiry form with inputs and contact information."
+        },
+        {
+          "filename": "Footer.astro",
+          "path": "src/components/Footer.astro",
+          "content": "---\n// src/components/Footer.astro\nimport { siteSettings, navigationMenu } from '../data/homepage.js';\n---\n\n<footer class=\"bg-[#050C1A] text-slate-400 py-16 border-t border-slate-800\">\n  <div class=\"container-custom\">\n    \n    <div class=\"grid grid-cols-1 md:grid-cols-12 gap-8 mb-12\">\n      \n      <!-- Brand Summary -->\n      <div class=\"md:col-span-5\">\n        <div class=\"flex items-center space-x-3 mb-4\">\n          <div class=\"w-8 h-8 rounded bg-[#C29B38] text-white font-bold flex items-center justify-center text-sm\">\n            R\n          </div>\n          <span class=\"text-white font-heading font-extrabold text-lg tracking-tight\">\n            {siteSettings.companyName}\n          </span>\n        </div>\n        <p class=\"text-xs text-slate-400 leading-relaxed max-w-sm mb-6\">\n          Regional holding corporation advancing sustainable prosperity, industrial independence, and institutional excellence across the Gulf Cooperation Council.\n        </p>\n        <div class=\"text-xs text-slate-500\">\n          Regional Offices: {siteSettings.regionalOffices.join(\" • \")}\n        </div>\n      </div>\n\n      <!-- Quick Links -->\n      <div class=\"md:col-span-3\">\n        <h4 class=\"text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading\">\n          Navigation\n        </h4>\n        <ul class=\"space-y-2 text-xs\">\n          {navigationMenu.map((item) => (\n            <li>\n              <a href={item.href} class=\"hover:text-amber-400 transition-colors\">\n                {item.label}\n              </a>\n            </li>\n          ))}\n        </ul>\n      </div>\n\n      <!-- Compliance & Governance -->\n      <div class=\"md:col-span-4\">\n        <h4 class=\"text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading\">\n          Governance & Standards\n        </h4>\n        <p class=\"text-xs text-slate-400 leading-relaxed mb-4\">\n          All investments and operational mandates adhere to strict sovereign regulatory compliances, CMA guidelines, and ESG disclosure standards.\n        </p>\n        <div class=\"inline-flex items-center px-3 py-1.5 rounded bg-slate-900 border border-slate-800 text-[11px] text-amber-400\">\n          ISO 9001:2015 & ISO 14001 Certified\n        </div>\n      </div>\n\n    </div>\n\n    <div class=\"pt-8 border-t border-slate-900 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between\">\n      <div>\n        &copy; {new Date().getFullYear()} {siteSettings.companyName}. All Rights Reserved.\n      </div>\n      <div class=\"flex space-x-6 mt-4 sm:mt-0\">\n        <a href=\"#about\" class=\"hover:text-slate-400 transition-colors\">Privacy Charter</a>\n        <a href=\"#about\" class=\"hover:text-slate-400 transition-colors\">Terms of Investment</a>\n        <a href=\"#contact\" class=\"hover:text-slate-400 transition-colors\">Security Disclosures</a>\n      </div>\n    </div>\n\n  </div>\n</footer>\n",
+          "is_layout": false,
+          "description": "Comprehensive corporate footer with quick links and governance disclaimers."
+        },
+        {
+          "filename": "index.astro",
+          "path": "src/pages/index.astro",
+          "content": "---\n// src/pages/index.astro\n// Main Composition Page - Assembles all modular components cleanly into MainLayout.\nimport MainLayout from '../layouts/MainLayout.astro';\nimport Header from '../components/Header.astro';\nimport Hero from '../components/Hero.astro';\nimport About from '../components/About.astro';\nimport Sectors from '../components/Sectors.astro';\nimport Stats from '../components/Stats.astro';\nimport Projects from '../components/Projects.astro';\nimport Contact from '../components/Contact.astro';\nimport Footer from '../components/Footer.astro';\n---\n\n<MainLayout title=\"RDGCC | Regional Development & Strategic GCC Investment Holding\">\n  <Header />\n  <main id=\"main-content\">\n    <Hero />\n    <About />\n    <Sectors />\n    <Stats />\n    <Projects />\n    <Contact />\n  </main>\n  <Footer />\n</MainLayout>\n",
+          "is_layout": false,
+          "description": "Master index page importing and assembling modular sections."
+        }
+      ],
+      "structured_content_file": "// src/data/homepage.js\n// Structured Content Architecture (Sanity CMS Ready)\n// Decouples editorial data from frontend layout and components.\n\nexport const siteSettings = {\n  companyName: \"RDGCC Holdings\",\n  logoText: \"RDGCC\",\n  tagline: \"Regional Development & Strategic Growth\",\n  contactEmail: \"inquiries@rdgcc.com\",\n  regionalOffices: [\"Riyadh, KSA\", \"Dubai, UAE\", \"Manama, Bahrain\", \"Doha, Qatar\"],\n  languages: [\n    { code: \"en\", label: \"EN\", active: true },\n    { code: \"ar\", label: \"العربية\", active: false }\n  ]\n};\n\nexport const navigationMenu = [\n  { label: \"Overview\", href: \"#about\" },\n  { label: \"Sectors\", href: \"#sectors\" },\n  { label: \"Performance\", href: \"#stats\" },\n  { label: \"Projects\", href: \"#projects\" },\n  { label: \"Contact\", href: \"#contact\" }\n];\n\nexport const heroContent = {\n  badge: \"Strategic GCC Investment Holding\",\n  headline: \"Empowering Regional Excellence and Strategic Growth Across the GCC\",\n  subheadline: \"RDGCC drives transformative capital, pioneering industrial infrastructure, and sustainable value creation across Gulf Cooperation Council economies.\",\n  primaryCta: { label: \"Explore Our Sectors\", href: \"#sectors\" },\n  secondaryCta: { label: \"Corporate Overview\", href: \"#about\" }\n};\n\nexport const aboutContent = {\n  badge: \"About RDGCC\",\n  title: \"Building Resilient Infrastructure for a Sustainable Arabian Future\",\n  paragraphOne: \"For over three decades, RDGCC has served as a catalyst for sovereign and private development across Saudi Arabia and the wider GCC region. We partner with institutional leaders to deploy innovative engineering, energy infrastructure, and industrial manufacturing capacity.\",\n  paragraphTwo: \"Our commitment to Vision 2030 and GCC unified growth frameworks establishes sustainable economic ecosystems built for multi-generational returns.\",\n  pillars: [\n    { title: \"Strategic Capital\", description: \"Targeted regional equity investments in sovereign-priority sectors.\" },\n    { title: \"Industrial Innovation\", description: \"Deploying advanced manufacturing, logistics automation, and clean technologies.\" },\n    { title: \"Governance & ESG\", description: \"Institutional excellence adhering to international sustainability benchmarks.\" }\n  ]\n};\n\nexport const sectorsData = [\n  {\n    id: \"energy\",\n    title: \"Energy & Industrial Services\",\n    icon: \"bolt\",\n    statsHighlight: \"1.4 GW Capacity\",\n    description: \"Developing clean power grids, EPC infrastructure, and specialized offshore servicing supporting GCC energy transitions.\",\n    capabilities: [\"Renewable Microgrids\", \"Petrochemical Processing\", \"Offshore Support Vessels\"]\n  },\n  {\n    id: \"maritime\",\n    title: \"Maritime & Port Logistics\",\n    icon: \"ship\",\n    statsHighlight: \"4.8M TEU Handled\",\n    description: \"Operating multi-modal logistics corridors, deepwater container terminals, and integrated supply networks connecting East and West.\",\n    capabilities: [\"Automated Port Operations\", \"Cold Chain Logistics\", \"Bunkering Facilities\"]\n  },\n  {\n    id: \"infrastructure\",\n    title: \"Real Estate & Strategic Infrastructure\",\n    icon: \"building\",\n    statsHighlight: \"12M+ Sq. Ft. Built\",\n    description: \"Master-planned industrial cities, commercial logistics hubs, and sustainable urban developments across major GCC trade hubs.\",\n    capabilities: [\"Industrial Free Zones\", \"Specialized Tech Parks\", \"Smart City Utilities\"]\n  },\n  {\n    id: \"technology\",\n    title: \"Sustainable Tech & Materials\",\n    icon: \"cpu\",\n    statsHighlight: \"35% Carbon Reduction\",\n    description: \"Pioneering circular economy initiatives, green hydrogen applications, and digital twin technology for heavy industry.\",\n    capabilities: [\"Green Hydrogen\", \"Advanced Composites\", \"Autonomous Fleet Telemetry\"]\n  }\n];\n\nexport const statsMetrics = [\n  { value: \"$3.8B+\", label: \"Assets Under Management\", description: \"Institutional investment portfolio\" },\n  { value: \"18+\", label: \"Regional Hubs\", description: \"Presence across GCC member states\" },\n  { value: \"32\", label: \"Years of Heritage\", description: \"Delivering regional industrial milestones\" },\n  { value: \"99.4%\", label: \"Safety & Compliance\", description: \"HSE international Gold Standard\" }\n];\n\nexport const featuredProjects = [\n  {\n    title: \"King Salman Maritime Gateway\",\n    sector: \"Maritime Logistics\",\n    location: \"Ras Al Khair, KSA\",\n    year: \"2024\",\n    summary: \"Integrated mega-hub incorporating automated dry docks, container feeder terminals, and AI-driven harbor control.\"\n  },\n  {\n    title: \"Gulf Clean Energy Microgrid\",\n    sector: \"Renewable Energy\",\n    location: \"Yanbu Industrial City, KSA\",\n    year: \"2023\",\n    summary: \"Utility-scale 450MW solar and battery storage installation powering heavy manufacturing facilities.\"\n  },\n  {\n    title: \"Al-Sharq Trade & Logistics Freezone\",\n    sector: \"Infrastructure\",\n    location: \"Dammam, KSA\",\n    year: \"2024\",\n    summary: \"2.4M square meter master-planned bonded logistics facility with multimodal rail and sea access.\"\n  }\n];\n\nexport const contactDetails = {\n  headquarters: \"RDGCC Tower, King Fahd Road, Riyadh, Kingdom of Saudi Arabia\",\n  phone: \"+966 11 400 9200\",\n  email: \"contact@rdgcc.com\",\n  inquiryTypes: [\"General Corporate\", \"Investment & Partnerships\", \"Supply Chain & Procurement\", \"Media Inquiries\"]\n};\n",
+      "sanity_schemas": [
+        {
+          "schema_name": "homepage",
+          "title": "Homepage Document Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'homepage',\n  title: 'Homepage Content',\n  type: 'document',\n  fields: [\n    {\n      name: 'hero',\n      title: 'Hero Section',\n      type: 'object',\n      fields: [\n        { name: 'tagline', title: 'Badge Tagline', type: 'string' },\n        { name: 'headline', title: 'Main Headline', type: 'string' },\n        { name: 'subheadline', title: 'Subheadline', type: 'text' },\n        { name: 'primaryCta', title: 'Primary CTA Label', type: 'string' },\n        { name: 'secondaryCta', title: 'Secondary CTA Label', type: 'string' }\n      ]\n    },\n    {\n      name: 'about',\n      title: 'About Section',\n      type: 'object',\n      fields: [\n        { name: 'badge', title: 'Section Badge', type: 'string' },\n        { name: 'title', title: 'Section Title', type: 'string' },\n        { name: 'paragraphOne', title: 'Strategic Narrative', type: 'text' },\n        { name: 'paragraphTwo', title: 'Operational Overview', type: 'text' },\n        { name: 'keyPillars', title: 'Strategic Pillars', type: 'array', of: [{ type: 'string' }] }\n      ]\n    },\n    {\n      name: 'stats',\n      title: 'Key Performance Indicators',\n      type: 'array',\n      of: [\n        {\n          type: 'object',\n          fields: [\n            { name: 'value', title: 'Metric Value', type: 'string' },\n            { name: 'label', title: 'Metric Label', type: 'string' },\n            { name: 'description', title: 'Brief Detail', type: 'string' }\n          ]\n        }\n      ]\n    }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "sector",
+          "title": "Strategic Business Sector Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'sector',\n  title: 'Strategic Business Sector',\n  type: 'document',\n  fields: [\n    { name: 'id', title: 'Sector ID', type: 'string' },\n    { name: 'title', title: 'Sector Title', type: 'string' },\n    { name: 'description', title: 'Overview', type: 'text' },\n    { name: 'icon', title: 'Icon Identifier', type: 'string' },\n    { name: 'statsHighlight', title: 'Key Metric', type: 'string' },\n    { name: 'capabilities', title: 'Core Capabilities', type: 'array', of: [{ type: 'string' }] }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "featuredProject",
+          "title": "Featured Strategic Project Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'featuredProject',\n  title: 'Strategic Project',\n  type: 'document',\n  fields: [\n    { name: 'title', title: 'Project Name', type: 'string' },\n    { name: 'sector', title: 'Sector Category', type: 'string' },\n    { name: 'location', title: 'Regional Hub', type: 'string' },\n    { name: 'year', title: 'Completion Year', type: 'string' },\n    { name: 'summary', title: 'Executive Summary', type: 'text' }\n  ]\n};\n"
+        },
+        {
+          "schema_name": "siteSettings",
+          "title": "Site Settings & Global Navigation Schema",
+          "fields": [],
+          "schema_code": "export default {\n  name: 'siteSettings',\n  title: 'Global Corporate Settings',\n  type: 'document',\n  fields: [\n    { name: 'companyName', title: 'Company Name', type: 'string' },\n    { name: 'logoText', title: 'Logo Text / Brand', type: 'string' },\n    { name: 'languageDefault', title: 'Default Language', type: 'string' },\n    {\n      name: 'navigation',\n      title: 'Main Navigation Menu',\n      type: 'array',\n      of: [\n        {\n          type: 'object',\n          fields: [\n            { name: 'label', title: 'Menu Label', type: 'string' },\n            { name: 'href', title: 'Target Anchor / URL', type: 'string' }\n          ]\n        }\n      ]\n    },\n    { name: 'contactEmail', title: 'Inquiries Email', type: 'string' },\n    { name: 'headquarters', title: 'Regional Headquarters', type: 'string' }\n  ]\n};\n"
+        }
+      ],
+      "global_css": "/* Reset and Modern Typography */\n*, *::before, *::after {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\n:root {\n  --color-primary: #0A192F;\n  --color-primary-light: #112240;\n  --color-accent: #C29B38;\n  --color-accent-hover: #D4AF37;\n  --color-surface: #F8FAFC;\n  --color-surface-white: #FFFFFF;\n  --color-text-main: #1E293B;\n  --color-text-muted: #64748B;\n  --color-border: #E2E8F0;\n  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;\n  --font-body: 'Inter', system-ui, -apple-system, sans-serif;\n}\n\nhtml {\n  font-family: var(--font-body);\n  color: var(--color-text-main);\n  background-color: var(--color-surface);\n  scroll-behavior: smooth;\n  -webkit-font-smoothing: antialiased;\n}\n\nbody {\n  line-height: 1.6;\n  overflow-x: hidden;\n  width: 100%;\n}\n\nh1, h2, h3, h4, .font-heading {\n  font-family: var(--font-heading);\n  letter-spacing: -0.02em;\n}\n\n/* Container Utility */\n.container-custom {\n  max-width: 1280px;\n  margin-left: auto;\n  margin-right: auto;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n}\n\n/* Button Utilities */\n.btn-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background-color: var(--color-accent);\n  color: #FFFFFF;\n  font-weight: 600;\n  font-size: 0.9375rem;\n  padding: 0.75rem 1.75rem;\n  border-radius: 0.375rem;\n  text-decoration: none;\n  transition: all 0.2s ease-in-out;\n  border: 1px solid transparent;\n  cursor: pointer;\n}\n\n.btn-primary:hover {\n  background-color: var(--color-accent-hover);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(194, 155, 56, 0.25);\n}\n\n.btn-outline {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  background-color: transparent;\n  color: #FFFFFF;\n  border: 1px solid rgba(255, 255, 255, 0.4);\n  font-weight: 600;\n  font-size: 0.9375rem;\n  padding: 0.75rem 1.75rem;\n  border-radius: 0.375rem;\n  text-decoration: none;\n  transition: all 0.2s ease-in-out;\n  cursor: pointer;\n}\n\n.btn-outline:hover {\n  background-color: rgba(255, 255, 255, 0.1);\n  border-color: #FFFFFF;\n}\n\n/* Card Hover Effects */\n.sector-card {\n  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;\n}\n\n.sector-card:hover {\n  transform: translateY(-4px);\n  box-shadow: 0 12px 24px -4px rgba(10, 25, 47, 0.08);\n  border-color: var(--color-accent);\n}\n\n/* Responsive adjustments */\n@media (max-width: 768px) {\n  .hero-headline {\n    font-size: 2.25rem !important;\n  }\n}\n",
+      "package_json": "{\n  \"name\": \"rdgcc-corporate-astro\",\n  \"type\": \"module\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"dev\": \"astro dev --port 4321\",\n    \"start\": \"astro dev --port 4321\",\n    \"build\": \"astro build\",\n    \"preview\": \"astro preview\"\n  },\n  \"dependencies\": {\n    \"astro\": \"^4.15.0\"\n  }\n}\n",
+      "astro_config": "import { defineConfig } from 'astro/config';\n\nexport default defineConfig({\n  server: {\n    port: 4321,\n    host: true\n  }\n});\n",
+      "build_valid": true,
+      "validation_errors": [],
+      "assumptions": [
+        "Generated in deterministic mode without live cloud vision LLM credits.",
+        "Dynamic video background in Hero section is adapted to optimized responsive picture element.",
+        "Multi-language switcher (EN/AR) is styled for LTR layout with RTL-ready tokens."
+      ]
+    }
+  ],
+  "qa_history": [
+    {
+      "project_id": "run_f691675b",
+      "iteration": 1,
+      "timestamp": "2026-11-18 15:53:22 UTC",
+      "total_tests": 12,
+      "passed_tests": 10,
+      "failed_tests": 2,
+      "critical_issues_count": 0,
+      "high_issues_count": 1,
+      "overall_status": "FAILED_NEEDS_CORRECTION",
+      "test_cases": [
+        {
+          "test_id": "VIS-001",
+          "category": "VISUAL",
+          "description": "Structural Similarity Index (SSIM) benchmark >= 0.80",
+          "expected_result": "SSIM score of at least 0.80 compared to reference design",
+          "actual_result": "Observed SSIM score: 0.3058",
+          "passed": false,
+          "severity": "HIGH",
+          "issue_description": "Layout structural discrepancy detected.",
+          "recommendation": "Tune section padding, font kerning, and grid margins.",
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_f691675b_v1.png"
+        },
+        {
+          "test_id": "VIS-002",
+          "category": "VISUAL",
+          "description": "Brand Color Palette and Contrast Fidelity",
+          "expected_result": "Corporate dark navy (#0A192F) and gold (#C29B38) balance within color delta threshold < 45",
+          "actual_result": "Observed Euclidean color delta: 291.87",
+          "passed": false,
+          "severity": "MEDIUM",
+          "issue_description": "Color tone deviation from reference aesthetic.",
+          "recommendation": "Verify CSS hex variables match reference palette.",
+          "affected_component": "global.css",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "VIS-003",
+          "category": "VISUAL",
+          "description": "Full-Page Semantic Section Completeness",
+          "expected_result": "All reference sections (Header, Hero, About, Sectors, Stats, Projects, Contact, Footer) rendered in document",
+          "actual_result": "Rendered full document height: 900px (1 discrepancy zones identified)",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "index.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "RESP-001",
+          "category": "RESPONSIVE",
+          "description": "Desktop Viewport Layout (1440 × 900)",
+          "expected_result": "Full grid alignment with zero horizontal scroll overflow",
+          "actual_result": "Passed with standard desktop container constraints",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Desktop_1440x900.png"
+        },
+        {
+          "test_id": "RESP-002",
+          "category": "RESPONSIVE",
+          "description": "Tablet Viewport Layout (768 × 1024)",
+          "expected_result": "Two-column responsive adaptation for mid-size tablet viewports",
+          "actual_result": "Passed responsive grid breakpoint",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Sectors.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Tablet_768x1024.png"
+        },
+        {
+          "test_id": "RESP-003",
+          "category": "RESPONSIVE",
+          "description": "Mobile Viewport Layout (375 × 812)",
+          "expected_result": "Single-column vertical stack with hidden desktop menu and touch-friendly targets",
+          "actual_result": "Passed mobile breakpoint validation",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Header.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Mobile_375x812.png"
+        },
+        {
+          "test_id": "FUNC-001",
+          "category": "FUNCTIONAL",
+          "description": "Page Load and HTML Document Metadata",
+          "expected_result": "Valid HTML document with non-empty <title> and metadata",
+          "actual_result": "Page loaded successfully with title: 'RDGCC Corporate Regional Portal'",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-002",
+          "category": "FUNCTIONAL",
+          "description": "Navigation Links and Anchor Targets",
+          "expected_result": "All navigation links have valid non-empty destination hrefs or section targets",
+          "actual_result": "Verified 9 valid links",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Navigation.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-003",
+          "category": "FUNCTIONAL",
+          "description": "Interactive Buttons and Accessibility Labels",
+          "expected_result": "All button elements have accessible text or aria-labels and valid cursor styling",
+          "actual_result": "Verified 2 accessible interactive buttons",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Header.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-004",
+          "category": "FUNCTIONAL",
+          "description": "Corporate Contact Form Validation and Inputs",
+          "expected_result": "Contact form contains corporate email input, area selector, and active submit button",
+          "actual_result": "Verified form with 4 inputs (name, email, sector, message) and submit handler",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Contact.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-005",
+          "category": "FUNCTIONAL",
+          "description": "Image Assets and Accessibility Attributes",
+          "expected_result": "All image and logo assets provide descriptive alt text for accessibility and screen readers",
+          "actual_result": "Verified 0 image assets with alt tags",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Hero.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-006",
+          "category": "FUNCTIONAL",
+          "description": "Semantic Heading Hierarchy (H1 / H2 / H3)",
+          "expected_result": "Document establishes a valid semantic heading hierarchy starting with exactly one primary H1",
+          "actual_result": "Verified valid heading hierarchy: H1 (1), H2 (4), H3 (3)",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Hero.astro",
+          "screenshot_path": null
+        }
+      ],
+      "visual_metrics": {
+        "ssim_score": 0.3058,
+        "pixel_diff_percentage": 79.24,
+        "mismatched_pixel_count": 1026940,
+        "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_f691675b_v1.png",
+        "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+        "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Desktop_1440x900.png",
+        "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.306). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
+      },
+      "responsive_audits": [
+        {
+          "device": "Desktop",
+          "viewport": "1440x900",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Desktop_1440x900.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        },
+        {
+          "device": "Tablet",
+          "viewport": "768x1024",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Tablet_768x1024.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        },
+        {
+          "device": "Mobile",
+          "viewport": "375x812",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v1_Mobile_375x812.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        }
+      ],
+      "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_f691675b_v1.html",
+      "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_f691675b_v1_1795017202.pdf",
+      "recommendations_summary": [
+        "[VIS-001] Tune section padding, font kerning, and grid margins.",
+        "[VIS-002] Verify CSS hex variables match reference palette."
+      ]
+    },
+    {
+      "project_id": "run_f691675b",
+      "iteration": 2,
+      "timestamp": "2026-11-18 15:53:28 UTC",
+      "total_tests": 12,
+      "passed_tests": 10,
+      "failed_tests": 2,
+      "critical_issues_count": 0,
+      "high_issues_count": 1,
+      "overall_status": "FAILED_NEEDS_CORRECTION",
+      "test_cases": [
+        {
+          "test_id": "VIS-001",
+          "category": "VISUAL",
+          "description": "Structural Similarity Index (SSIM) benchmark >= 0.80",
+          "expected_result": "SSIM score of at least 0.80 compared to reference design",
+          "actual_result": "Observed SSIM score: 0.3083",
+          "passed": false,
+          "severity": "HIGH",
+          "issue_description": "Layout structural discrepancy detected.",
+          "recommendation": "Tune section padding, font kerning, and grid margins.",
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_f691675b_v2.png"
+        },
+        {
+          "test_id": "VIS-002",
+          "category": "VISUAL",
+          "description": "Brand Color Palette and Contrast Fidelity",
+          "expected_result": "Corporate dark navy (#0A192F) and gold (#C29B38) balance within color delta threshold < 45",
+          "actual_result": "Observed Euclidean color delta: 292.55",
+          "passed": false,
+          "severity": "MEDIUM",
+          "issue_description": "Color tone deviation from reference aesthetic.",
+          "recommendation": "Verify CSS hex variables match reference palette.",
+          "affected_component": "global.css",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "VIS-003",
+          "category": "VISUAL",
+          "description": "Full-Page Semantic Section Completeness",
+          "expected_result": "All reference sections (Header, Hero, About, Sectors, Stats, Projects, Contact, Footer) rendered in document",
+          "actual_result": "Rendered full document height: 900px (1 discrepancy zones identified)",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "index.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "RESP-001",
+          "category": "RESPONSIVE",
+          "description": "Desktop Viewport Layout (1440 × 900)",
+          "expected_result": "Full grid alignment with zero horizontal scroll overflow",
+          "actual_result": "Passed with standard desktop container constraints",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Desktop_1440x900.png"
+        },
+        {
+          "test_id": "RESP-002",
+          "category": "RESPONSIVE",
+          "description": "Tablet Viewport Layout (768 × 1024)",
+          "expected_result": "Two-column responsive adaptation for mid-size tablet viewports",
+          "actual_result": "Passed responsive grid breakpoint",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Sectors.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Tablet_768x1024.png"
+        },
+        {
+          "test_id": "RESP-003",
+          "category": "RESPONSIVE",
+          "description": "Mobile Viewport Layout (375 × 812)",
+          "expected_result": "Single-column vertical stack with hidden desktop menu and touch-friendly targets",
+          "actual_result": "Passed mobile breakpoint validation",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Header.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Mobile_375x812.png"
+        },
+        {
+          "test_id": "FUNC-001",
+          "category": "FUNCTIONAL",
+          "description": "Page Load and HTML Document Metadata",
+          "expected_result": "Valid HTML document with non-empty <title> and metadata",
+          "actual_result": "Page loaded successfully with title: 'RDGCC Corporate Regional Portal'",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-002",
+          "category": "FUNCTIONAL",
+          "description": "Navigation Links and Anchor Targets",
+          "expected_result": "All navigation links have valid non-empty destination hrefs or section targets",
+          "actual_result": "Verified 9 valid links",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Navigation.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-003",
+          "category": "FUNCTIONAL",
+          "description": "Interactive Buttons and Accessibility Labels",
+          "expected_result": "All button elements have accessible text or aria-labels and valid cursor styling",
+          "actual_result": "Verified 2 accessible interactive buttons",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Header.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-004",
+          "category": "FUNCTIONAL",
+          "description": "Corporate Contact Form Validation and Inputs",
+          "expected_result": "Contact form contains corporate email input, area selector, and active submit button",
+          "actual_result": "Verified form with 4 inputs (name, email, sector, message) and submit handler",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Contact.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-005",
+          "category": "FUNCTIONAL",
+          "description": "Image Assets and Accessibility Attributes",
+          "expected_result": "All image and logo assets provide descriptive alt text for accessibility and screen readers",
+          "actual_result": "Verified 0 image assets with alt tags",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Hero.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-006",
+          "category": "FUNCTIONAL",
+          "description": "Semantic Heading Hierarchy (H1 / H2 / H3)",
+          "expected_result": "Document establishes a valid semantic heading hierarchy starting with exactly one primary H1",
+          "actual_result": "Verified valid heading hierarchy: H1 (1), H2 (4), H3 (3)",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Hero.astro",
+          "screenshot_path": null
+        }
+      ],
+      "visual_metrics": {
+        "ssim_score": 0.3083,
+        "pixel_diff_percentage": 79.13,
+        "mismatched_pixel_count": 1025555,
+        "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_f691675b_v2.png",
+        "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+        "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Desktop_1440x900.png",
+        "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.308). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
+      },
+      "responsive_audits": [
+        {
+          "device": "Desktop",
+          "viewport": "1440x900",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Desktop_1440x900.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        },
+        {
+          "device": "Tablet",
+          "viewport": "768x1024",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Tablet_768x1024.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        },
+        {
+          "device": "Mobile",
+          "viewport": "375x812",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v2_Mobile_375x812.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        }
+      ],
+      "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_f691675b_v2.html",
+      "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_f691675b_v2_1795017208.pdf",
+      "recommendations_summary": [
+        "[VIS-001] Tune section padding, font kerning, and grid margins.",
+        "[VIS-002] Verify CSS hex variables match reference palette."
+      ]
+    },
+    {
+      "project_id": "run_f691675b",
+      "iteration": 3,
+      "timestamp": "2026-11-18 15:53:36 UTC",
+      "total_tests": 12,
+      "passed_tests": 10,
+      "failed_tests": 2,
+      "critical_issues_count": 0,
+      "high_issues_count": 1,
+      "overall_status": "FAILED_NEEDS_CORRECTION",
+      "test_cases": [
+        {
+          "test_id": "VIS-001",
+          "category": "VISUAL",
+          "description": "Structural Similarity Index (SSIM) benchmark >= 0.80",
+          "expected_result": "SSIM score of at least 0.80 compared to reference design",
+          "actual_result": "Observed SSIM score: 0.3083",
+          "passed": false,
+          "severity": "HIGH",
+          "issue_description": "Layout structural discrepancy detected.",
+          "recommendation": "Tune section padding, font kerning, and grid margins.",
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_f691675b_v3.png"
+        },
+        {
+          "test_id": "VIS-002",
+          "category": "VISUAL",
+          "description": "Brand Color Palette and Contrast Fidelity",
+          "expected_result": "Corporate dark navy (#0A192F) and gold (#C29B38) balance within color delta threshold < 45",
+          "actual_result": "Observed Euclidean color delta: 292.55",
+          "passed": false,
+          "severity": "MEDIUM",
+          "issue_description": "Color tone deviation from reference aesthetic.",
+          "recommendation": "Verify CSS hex variables match reference palette.",
+          "affected_component": "global.css",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "VIS-003",
+          "category": "VISUAL",
+          "description": "Full-Page Semantic Section Completeness",
+          "expected_result": "All reference sections (Header, Hero, About, Sectors, Stats, Projects, Contact, Footer) rendered in document",
+          "actual_result": "Rendered full document height: 900px (1 discrepancy zones identified)",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "index.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "RESP-001",
+          "category": "RESPONSIVE",
+          "description": "Desktop Viewport Layout (1440 × 900)",
+          "expected_result": "Full grid alignment with zero horizontal scroll overflow",
+          "actual_result": "Passed with standard desktop container constraints",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Desktop_1440x900.png"
+        },
+        {
+          "test_id": "RESP-002",
+          "category": "RESPONSIVE",
+          "description": "Tablet Viewport Layout (768 × 1024)",
+          "expected_result": "Two-column responsive adaptation for mid-size tablet viewports",
+          "actual_result": "Passed responsive grid breakpoint",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Sectors.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Tablet_768x1024.png"
+        },
+        {
+          "test_id": "RESP-003",
+          "category": "RESPONSIVE",
+          "description": "Mobile Viewport Layout (375 × 812)",
+          "expected_result": "Single-column vertical stack with hidden desktop menu and touch-friendly targets",
+          "actual_result": "Passed mobile breakpoint validation",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Header.astro",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Mobile_375x812.png"
+        },
+        {
+          "test_id": "FUNC-001",
+          "category": "FUNCTIONAL",
+          "description": "Page Load and HTML Document Metadata",
+          "expected_result": "Valid HTML document with non-empty <title> and metadata",
+          "actual_result": "Page loaded successfully with title: 'RDGCC Corporate Regional Portal'",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "MainLayout.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-002",
+          "category": "FUNCTIONAL",
+          "description": "Navigation Links and Anchor Targets",
+          "expected_result": "All navigation links have valid non-empty destination hrefs or section targets",
+          "actual_result": "Verified 9 valid links",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Navigation.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-003",
+          "category": "FUNCTIONAL",
+          "description": "Interactive Buttons and Accessibility Labels",
+          "expected_result": "All button elements have accessible text or aria-labels and valid cursor styling",
+          "actual_result": "Verified 2 accessible interactive buttons",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Header.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-004",
+          "category": "FUNCTIONAL",
+          "description": "Corporate Contact Form Validation and Inputs",
+          "expected_result": "Contact form contains corporate email input, area selector, and active submit button",
+          "actual_result": "Verified form with 4 inputs (name, email, sector, message) and submit handler",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Contact.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-005",
+          "category": "FUNCTIONAL",
+          "description": "Image Assets and Accessibility Attributes",
+          "expected_result": "All image and logo assets provide descriptive alt text for accessibility and screen readers",
+          "actual_result": "Verified 0 image assets with alt tags",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Hero.astro",
+          "screenshot_path": null
+        },
+        {
+          "test_id": "FUNC-006",
+          "category": "FUNCTIONAL",
+          "description": "Semantic Heading Hierarchy (H1 / H2 / H3)",
+          "expected_result": "Document establishes a valid semantic heading hierarchy starting with exactly one primary H1",
+          "actual_result": "Verified valid heading hierarchy: H1 (1), H2 (4), H3 (3)",
+          "passed": true,
+          "severity": "INFO",
+          "issue_description": null,
+          "recommendation": null,
+          "affected_component": "Hero.astro",
+          "screenshot_path": null
+        }
+      ],
+      "visual_metrics": {
+        "ssim_score": 0.3083,
+        "pixel_diff_percentage": 79.13,
+        "mismatched_pixel_count": 1025555,
+        "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_f691675b_v3.png",
+        "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+        "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Desktop_1440x900.png",
+        "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.308). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
+      },
+      "responsive_audits": [
+        {
+          "device": "Desktop",
+          "viewport": "1440x900",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Desktop_1440x900.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        },
+        {
+          "device": "Tablet",
+          "viewport": "768x1024",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Tablet_768x1024.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        },
+        {
+          "device": "Mobile",
+          "viewport": "375x812",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_f691675b_v3_Mobile_375x812.png",
+          "horizontal_overflow": false,
+          "text_overflow_detected": false,
+          "navigation_broken": false,
+          "issues": []
+        }
+      ],
+      "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_f691675b_v3.html",
+      "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_f691675b_v3_1795017216.pdf",
+      "recommendations_summary": [
+        "[VIS-001] Tune section padding, font kerning, and grid margins.",
+        "[VIS-002] Verify CSS hex variables match reference palette."
+      ]
+    }
+  ],
+  "correction_history": [
+    {
+      "iteration": 1,
+      "target_components": [
+        "MainLayout.astro"
+      ],
+      "specific_issues": [
+        "Structural Similarity Index (SSIM) benchmark >= 0.80"
+      ],
+      "actionable_instructions": [
+        "Tune section padding, font kerning, and grid margins."
+      ]
+    },
+    {
+      "iteration": 2,
+      "target_components": [
+        "MainLayout.astro"
+      ],
+      "specific_issues": [
+        "Structural Similarity Index (SSIM) benchmark >= 0.80"
+      ],
+      "actionable_instructions": [
+        "Tune section padding, font kerning, and grid margins."
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "2026-11-18T15:52:54.052784+00:00",
+      "stage": "SERVER",
+      "agent": "SYSTEM",
+      "message": "FastAPI Multi-Agent Server initializing.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:52:54.053791+00:00",
+      "stage": "SERVER",
+      "agent": "SYSTEM",
+      "message": "LLM Integration Mode: DEMO_DETERMINISTIC (builtin-heuristic-engine)",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.518611+00:00",
+      "stage": "ORCHESTRATOR",
+      "agent": "ORCHESTRATOR",
+      "message": "Starting automated execution pipeline for run: run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.520708+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Step 1/17: Delegating reference visual asset to Agent 1.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.523675+00:00",
+      "stage": "ANALYZER",
+      "agent": "AGENT_1",
+      "message": "Initiating design analysis. File: C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png, Figma: None",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.523675+00:00",
+      "stage": "ANALYZER",
+      "agent": "AGENT_1",
+      "message": "Prepared reference image for visual analysis: rdgcc_reference.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.524612+00:00",
+      "stage": "ANALYSIS",
+      "agent": "AGENT_1",
+      "message": "Starting design analysis using DEMO_DETERMINISTIC (builtin-heuristic-engine)",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.526621+00:00",
+      "stage": "ANALYZER",
+      "agent": "AGENT_1",
+      "message": "Analysis complete: Identified 8 sections, 7 color tokens, and 6 font scales.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.529611+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Step 4/17: Agent 1 synthesizing modular Astro components.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.530611+00:00",
+      "stage": "GENERATOR",
+      "agent": "AGENT_1",
+      "message": "Generating modular Astro project: run_f691675b (v1)",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.532613+00:00",
+      "stage": "GENERATOR",
+      "agent": "AGENT_1",
+      "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.535095+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Step 5/17: Materializing Astro project to disk.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.586578+00:00",
+      "stage": "ASTRO_GEN",
+      "agent": "AGENT_1",
+      "message": "Wrote 11 components and assets to run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.598446+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Beginning QA Testing Iteration 1/3",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:15.600442+00:00",
+      "stage": "PIPELINE",
+      "agent": "AGENT_2",
+      "message": "Step 7/17: Capturing viewports (1440x900, 768x1024, 375x812) for v1",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:18.820242+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Desktop (1440x900) using headless browser: run_f691675b_v1_Desktop_1440x900.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:20.392401+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Tablet (768x1024) using headless browser: run_f691675b_v1_Tablet_768x1024.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.056565+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Mobile (375x812) using headless browser: run_f691675b_v1_Mobile_375x812.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.057643+00:00",
+      "stage": "VISUAL_DIFF",
+      "agent": "AGENT_2",
+      "message": "Comparing reference (rdgcc_reference.png) with rendered site (run_f691675b_v1_Desktop_1440x900.png)",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.611916+00:00",
+      "stage": "VISUAL_DIFF",
+      "agent": "AGENT_2",
+      "message": "Visual comparison completed: SSIM=0.3058, Pixel Discrepancy=79.24%, 3 tests logged.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.614924+00:00",
+      "stage": "RESPONSIVE_QA",
+      "agent": "AGENT_2",
+      "message": "Running responsive layout audit across 3 viewports.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.619188+00:00",
+      "stage": "FUNC_QA",
+      "agent": "AGENT_2",
+      "message": "Running functional test suite against DOM at http://127.0.0.1:8000/api/preview/run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.641282+00:00",
+      "stage": "FUNC_QA",
+      "agent": "AGENT_2",
+      "message": "Completed functional test execution. 6/6 tests passed.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.699167+00:00",
+      "stage": "PDF_EXPORT",
+      "agent": "AGENT_2",
+      "message": "Generated executive QA PDF: QA_Report_run_f691675b_v1_1795017202.pdf",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.702776+00:00",
+      "stage": "REPORT_GEN",
+      "agent": "AGENT_2",
+      "message": "Generated QA Report: 12 tests (10 passed, 2 failed, 0 critical). HTML: QA_Report_run_f691675b_v1.html",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.707785+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Transmitting 1 QA correction directives to Agent 1 for iteration 2.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.707785+00:00",
+      "stage": "REFACTOR",
+      "agent": "AGENT_1",
+      "message": "Applying QA corrections for iteration 1 -> new version v2. Targets: ['MainLayout.astro']",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.707785+00:00",
+      "stage": "REFACTOR",
+      "agent": "AGENT_1",
+      "message": "Completed refactor cycle v2.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.771910+00:00",
+      "stage": "ASTRO_GEN",
+      "agent": "AGENT_1",
+      "message": "Wrote 11 components and assets to run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.777571+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Beginning QA Testing Iteration 2/3",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:22.777571+00:00",
+      "stage": "PIPELINE",
+      "agent": "AGENT_2",
+      "message": "Step 7/17: Capturing viewports (1440x900, 768x1024, 375x812) for v2",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:24.526424+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Desktop (1440x900) using headless browser: run_f691675b_v2_Desktop_1440x900.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:26.276014+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Tablet (768x1024) using headless browser: run_f691675b_v2_Tablet_768x1024.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:27.796763+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Mobile (375x812) using headless browser: run_f691675b_v2_Mobile_375x812.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:27.797286+00:00",
+      "stage": "VISUAL_DIFF",
+      "agent": "AGENT_2",
+      "message": "Comparing reference (rdgcc_reference.png) with rendered site (run_f691675b_v2_Desktop_1440x900.png)",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.245460+00:00",
+      "stage": "VISUAL_DIFF",
+      "agent": "AGENT_2",
+      "message": "Visual comparison completed: SSIM=0.3083, Pixel Discrepancy=79.13%, 3 tests logged.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.248964+00:00",
+      "stage": "RESPONSIVE_QA",
+      "agent": "AGENT_2",
+      "message": "Running responsive layout audit across 3 viewports.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.249978+00:00",
+      "stage": "FUNC_QA",
+      "agent": "AGENT_2",
+      "message": "Running functional test suite against DOM at http://127.0.0.1:8000/api/preview/run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.262497+00:00",
+      "stage": "FUNC_QA",
+      "agent": "AGENT_2",
+      "message": "Completed functional test execution. 6/6 tests passed.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.297712+00:00",
+      "stage": "PDF_EXPORT",
+      "agent": "AGENT_2",
+      "message": "Generated executive QA PDF: QA_Report_run_f691675b_v2_1795017208.pdf",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.300728+00:00",
+      "stage": "REPORT_GEN",
+      "agent": "AGENT_2",
+      "message": "Generated QA Report: 12 tests (10 passed, 2 failed, 0 critical). HTML: QA_Report_run_f691675b_v2.html",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.305728+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Transmitting 1 QA correction directives to Agent 1 for iteration 3.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.305728+00:00",
+      "stage": "REFACTOR",
+      "agent": "AGENT_1",
+      "message": "Applying QA corrections for iteration 2 -> new version v3. Targets: ['MainLayout.astro']",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.305728+00:00",
+      "stage": "REFACTOR",
+      "agent": "AGENT_1",
+      "message": "Completed refactor cycle v3.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.335714+00:00",
+      "stage": "ASTRO_GEN",
+      "agent": "AGENT_1",
+      "message": "Wrote 11 components and assets to run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.344024+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Beginning QA Testing Iteration 3/3",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:28.344024+00:00",
+      "stage": "PIPELINE",
+      "agent": "AGENT_2",
+      "message": "Step 7/17: Capturing viewports (1440x900, 768x1024, 375x812) for v3",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:30.044327+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Desktop (1440x900) using headless browser: run_f691675b_v3_Desktop_1440x900.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:34.574118+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Tablet (768x1024) using headless browser: run_f691675b_v3_Tablet_768x1024.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.144437+00:00",
+      "stage": "BROWSER",
+      "agent": "AGENT_2",
+      "message": "Captured Mobile (375x812) using headless browser: run_f691675b_v3_Mobile_375x812.png",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.145439+00:00",
+      "stage": "VISUAL_DIFF",
+      "agent": "AGENT_2",
+      "message": "Comparing reference (rdgcc_reference.png) with rendered site (run_f691675b_v3_Desktop_1440x900.png)",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.850164+00:00",
+      "stage": "VISUAL_DIFF",
+      "agent": "AGENT_2",
+      "message": "Visual comparison completed: SSIM=0.3083, Pixel Discrepancy=79.13%, 3 tests logged.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.853177+00:00",
+      "stage": "RESPONSIVE_QA",
+      "agent": "AGENT_2",
+      "message": "Running responsive layout audit across 3 viewports.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.854185+00:00",
+      "stage": "FUNC_QA",
+      "agent": "AGENT_2",
+      "message": "Running functional test suite against DOM at http://127.0.0.1:8000/api/preview/run_f691675b",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.880675+00:00",
+      "stage": "FUNC_QA",
+      "agent": "AGENT_2",
+      "message": "Completed functional test execution. 6/6 tests passed.",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.940290+00:00",
+      "stage": "PDF_EXPORT",
+      "agent": "AGENT_2",
+      "message": "Generated executive QA PDF: QA_Report_run_f691675b_v3_1795017216.pdf",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.942760+00:00",
+      "stage": "REPORT_GEN",
+      "agent": "AGENT_2",
+      "message": "Generated QA Report: 12 tests (10 passed, 2 failed, 0 critical). HTML: QA_Report_run_f691675b_v3.html",
+      "level": "INFO"
+    },
+    {
+      "timestamp": "2026-11-18T15:53:36.946491+00:00",
+      "stage": "PIPELINE",
+      "agent": "ORCHESTRATOR",
+      "message": "Reached maximum correction iterations (3). Finalizing report.",
+      "level": "WARNING"
+    }
+  ],
+  "preview_url": "http://127.0.0.1:8000/api/preview/run_f691675b",
+  "error_message": null,
+  "created_at": "2026-11-18T15:53:15.515493+00:00",
+  "updated_at": "2026-11-18T15:53:36.946491+00:00"
+}

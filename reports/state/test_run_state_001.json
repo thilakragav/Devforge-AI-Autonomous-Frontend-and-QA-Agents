@@ -12,176 +12,176 @@
   "correction_history": [],
   "logs": [
     {
-      "timestamp": "2026-11-18T14:54:51.169431+00:00",
+      "timestamp": "2026-11-18T16:40:30.918174+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Initiating design analysis. File: C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png, Figma: None",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.170431+00:00",
+      "timestamp": "2026-11-18T16:40:30.918174+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Prepared reference image for visual analysis: rdgcc_reference.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.170431+00:00",
+      "timestamp": "2026-11-18T16:40:30.918174+00:00",
       "stage": "ANALYSIS",
       "agent": "AGENT_1",
       "message": "Starting design analysis using DEMO_DETERMINISTIC (builtin-heuristic-engine)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.172432+00:00",
+      "timestamp": "2026-11-18T16:40:30.920182+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Analysis complete: Identified 8 sections, 7 color tokens, and 6 font scales.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.175930+00:00",
+      "timestamp": "2026-11-18T16:40:30.922193+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_proj_001 (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.175930+00:00",
+      "timestamp": "2026-11-18T16:40:30.922776+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.185396+00:00",
+      "timestamp": "2026-11-18T16:40:30.930033+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_astro_val (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.185396+00:00",
+      "timestamp": "2026-11-18T16:40:30.930736+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.214692+00:00",
+      "timestamp": "2026-11-18T16:40:30.957287+00:00",
       "stage": "ASTRO_GEN",
       "agent": "AGENT_1",
       "message": "Wrote 11 components and assets to test_astro_val",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.221387+00:00",
+      "timestamp": "2026-11-18T16:40:30.963604+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_refactor (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.221387+00:00",
+      "timestamp": "2026-11-18T16:40:30.964130+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.221387+00:00",
+      "timestamp": "2026-11-18T16:40:30.964130+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Applying QA corrections for iteration 1 -> new version v2. Targets: ['Hero.astro']",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.221387+00:00",
+      "timestamp": "2026-11-18T16:40:30.964130+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Refactoring Hero.astro: tuning responsive container padding and headline clamp.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.222006+00:00",
+      "timestamp": "2026-11-18T16:40:30.964130+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Completed refactor cycle v2.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.227588+00:00",
+      "timestamp": "2026-11-18T16:40:30.968151+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Comparing reference (rdgcc_reference.png) with rendered site (rdgcc_reference.png)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.553083+00:00",
+      "timestamp": "2026-11-18T16:40:31.291495+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Visual comparison completed: SSIM=1.0000, Pixel Discrepancy=0.00%, 3 tests logged.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.559789+00:00",
+      "timestamp": "2026-11-18T16:40:31.296253+00:00",
       "stage": "RESPONSIVE_QA",
       "agent": "AGENT_2",
       "message": "Running responsive layout audit across 3 viewports.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.562548+00:00",
+      "timestamp": "2026-11-18T16:40:31.297923+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Running functional test suite against DOM at http://localhost:8000/api/preview/test",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.563655+00:00",
+      "timestamp": "2026-11-18T16:40:31.298487+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Completed functional test execution. 6/6 tests passed.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.566899+00:00",
+      "timestamp": "2026-11-18T16:40:31.301604+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Running functional test suite against DOM at http://localhost:8000",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.567483+00:00",
+      "timestamp": "2026-11-18T16:40:31.302231+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Completed functional test execution. 4/6 tests passed.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.590879+00:00",
+      "timestamp": "2026-11-18T16:40:31.321122+00:00",
       "stage": "PDF_EXPORT",
       "agent": "AGENT_2",
-      "message": "Generated executive QA PDF: QA_Report_test_report_gen_v1_1795013691.pdf",
+      "message": "Generated executive QA PDF: QA_Report_test_report_gen_v1_1795020031.pdf",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.593339+00:00",
+      "timestamp": "2026-11-18T16:40:31.327088+00:00",
       "stage": "REPORT_GEN",
       "agent": "AGENT_2",
       "message": "Generated QA Report: 6 tests (4 passed, 2 failed, 0 critical). HTML: QA_Report_test_report_gen_v1.html",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T14:54:51.610727+00:00",
+      "timestamp": "2026-11-18T16:40:31.341788+00:00",
       "stage": "UPLOAD",
       "agent": "SYSTEM",
-      "message": "Saved upload: test_upload_4.png (16 bytes)",
+      "message": "Saved upload: test_upload_7.png (16 bytes)",
       "level": "INFO"
     }
   ],
   "preview_url": null,
   "error_message": null,
-  "created_at": "2026-11-18T14:54:51.615525+00:00",
-  "updated_at": "2026-11-18T14:54:51.616619+00:00"
+  "created_at": "2026-11-18T16:40:31.348811+00:00",
+  "updated_at": "2026-11-18T16:40:31.349526+00:00"
 }
