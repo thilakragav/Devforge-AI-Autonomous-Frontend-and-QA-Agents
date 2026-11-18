@@ -1,0 +1,50 @@
+---
+// src/components/Header.astro
+import Navigation from './Navigation.astro';
+import { siteSettings } from '../data/homepage.js';
+---
+
+<header class="sticky top-0 z-50 bg-[#0A192F] border-b border-slate-800/80 backdrop-blur-md shadow-md">
+  <div class="container-custom">
+    <div class="flex items-center justify-between h-20">
+      
+      <!-- Brand Logo -->
+      <a href="/" class="flex items-center space-x-3 text-white no-underline group" aria-label="RDGCC Homepage">
+        <div class="w-10 h-10 rounded bg-gradient-to-br from-[#C29B38] to-[#997722] flex items-center justify-center font-bold text-white text-lg tracking-wider shadow">
+          R
+        </div>
+        <div class="flex flex-col">
+          <span class="font-heading font-extrabold text-xl tracking-tight text-white group-hover:text-amber-400 transition-colors">
+            {siteSettings.logoText}
+          </span>
+          <span class="text-[10px] uppercase tracking-widest text-slate-400 font-medium">
+            GCC Holdings
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <Navigation />
+
+      <!-- Utility: Language & CTA -->
+      <div class="flex items-center space-x-4">
+        <div class="hidden sm:flex items-center bg-slate-900/60 rounded border border-slate-700/60 p-1 text-xs font-semibold">
+          {siteSettings.languages.map((lang) => (
+            <button 
+              type="button"
+              class={`px-2 py-0.5 rounded transition-colors ${lang.active ? 'bg-[#C29B38] text-white' : 'text-slate-400 hover:text-white'}`}
+              aria-label={`Switch to ${lang.label}`}
+            >
+              {lang.label}
+            </button>
+          ))}
+        </div>
+
+        <a href="#contact" class="btn-primary text-xs !py-2 !px-4">
+          Contact Us
+        </a>
+      </div>
+
+    </div>
+  </div>
+</header>

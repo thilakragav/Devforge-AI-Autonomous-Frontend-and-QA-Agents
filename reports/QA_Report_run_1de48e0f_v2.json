@@ -1,0 +1,213 @@
+{
+  "project_id": "run_1de48e0f",
+  "iteration": 2,
+  "timestamp": "2026-11-18 16:42:11 UTC",
+  "total_tests": 12,
+  "passed_tests": 10,
+  "failed_tests": 2,
+  "critical_issues_count": 0,
+  "high_issues_count": 1,
+  "overall_status": "FAILED_NEEDS_CORRECTION",
+  "test_cases": [
+    {
+      "test_id": "VIS-001",
+      "category": "VISUAL",
+      "description": "Structural Similarity Index (SSIM) benchmark >= 0.80",
+      "expected_result": "SSIM score of at least 0.80 compared to reference design",
+      "actual_result": "Observed SSIM score: 0.6900",
+      "passed": false,
+      "severity": "HIGH",
+      "issue_description": "Layout structural discrepancy detected.",
+      "recommendation": "Tune section padding, font kerning, and grid margins.",
+      "affected_component": "MainLayout.astro",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_1de48e0f_v2.png"
+    },
+    {
+      "test_id": "VIS-002",
+      "category": "VISUAL",
+      "description": "Brand Color Palette and Contrast Fidelity",
+      "expected_result": "Corporate dark navy (#0A192F) and gold (#C29B38) balance within color delta threshold < 45",
+      "actual_result": "Observed Euclidean color delta: 57.85",
+      "passed": false,
+      "severity": "MEDIUM",
+      "issue_description": "Color tone deviation from reference aesthetic.",
+      "recommendation": "Verify CSS hex variables match reference palette.",
+      "affected_component": "global.css",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "VIS-003",
+      "category": "VISUAL",
+      "description": "Full-Page Semantic Section Completeness",
+      "expected_result": "All reference sections (Header, Hero, About, Sectors, Stats, Projects, Contact, Footer) rendered in document",
+      "actual_result": "Rendered full document height: 900px (40 discrepancy zones identified)",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "index.astro",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "RESP-001",
+      "category": "RESPONSIVE",
+      "description": "Desktop Viewport Layout (1440 × 900)",
+      "expected_result": "Full grid alignment with zero horizontal scroll overflow",
+      "actual_result": "Passed with standard desktop container constraints",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "MainLayout.astro",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Desktop_1440x900.png"
+    },
+    {
+      "test_id": "RESP-002",
+      "category": "RESPONSIVE",
+      "description": "Tablet Viewport Layout (768 × 1024)",
+      "expected_result": "Two-column responsive adaptation for mid-size tablet viewports",
+      "actual_result": "Passed responsive grid breakpoint",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Sectors.astro",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Tablet_768x1024.png"
+    },
+    {
+      "test_id": "RESP-003",
+      "category": "RESPONSIVE",
+      "description": "Mobile Viewport Layout (375 × 812)",
+      "expected_result": "Single-column vertical stack with hidden desktop menu and touch-friendly targets",
+      "actual_result": "Passed mobile breakpoint validation",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Header.astro",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Mobile_375x812.png"
+    },
+    {
+      "test_id": "FUNC-001",
+      "category": "FUNCTIONAL",
+      "description": "Page Load and HTML Document Metadata",
+      "expected_result": "Valid HTML document with non-empty <title> and metadata",
+      "actual_result": "Page loaded successfully with title: 'RDGCC Corporate Regional Portal — Gulf Regional Development Holding'",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "MainLayout.astro",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "FUNC-002",
+      "category": "FUNCTIONAL",
+      "description": "Navigation Links and Anchor Targets",
+      "expected_result": "All navigation links have valid non-empty destination hrefs or section targets",
+      "actual_result": "Verified 22 valid links",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Navigation.astro",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "FUNC-003",
+      "category": "FUNCTIONAL",
+      "description": "Interactive Buttons and Accessibility Labels",
+      "expected_result": "All button elements have accessible text or aria-labels and valid cursor styling",
+      "actual_result": "Verified 4 accessible interactive buttons",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Header.astro",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "FUNC-004",
+      "category": "FUNCTIONAL",
+      "description": "Corporate Contact Form Validation and Inputs",
+      "expected_result": "Contact form contains corporate email input, area selector, and active submit button",
+      "actual_result": "Verified form with 4 inputs (fullname, email, sector, message) and submit handler",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Contact.astro",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "FUNC-005",
+      "category": "FUNCTIONAL",
+      "description": "Image Assets and Accessibility Attributes",
+      "expected_result": "All image and logo assets provide descriptive alt text for accessibility and screen readers",
+      "actual_result": "Verified 0 image assets with alt tags",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Hero.astro",
+      "screenshot_path": null
+    },
+    {
+      "test_id": "FUNC-006",
+      "category": "FUNCTIONAL",
+      "description": "Semantic Heading Hierarchy (H1 / H2 / H3)",
+      "expected_result": "Document establishes a valid semantic heading hierarchy starting with exactly one primary H1",
+      "actual_result": "Verified valid heading hierarchy: H1 (1), H2 (4), H3 (10)",
+      "passed": true,
+      "severity": "INFO",
+      "issue_description": null,
+      "recommendation": null,
+      "affected_component": "Hero.astro",
+      "screenshot_path": null
+    }
+  ],
+  "visual_metrics": {
+    "ssim_score": 0.69,
+    "pixel_diff_percentage": 24.76,
+    "mismatched_pixel_count": 320900,
+    "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_run_1de48e0f_v2.png",
+    "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+    "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Desktop_1440x900.png",
+    "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.690). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
+  },
+  "responsive_audits": [
+    {
+      "device": "Desktop",
+      "viewport": "1440x900",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Desktop_1440x900.png",
+      "horizontal_overflow": false,
+      "text_overflow_detected": false,
+      "navigation_broken": false,
+      "issues": []
+    },
+    {
+      "device": "Tablet",
+      "viewport": "768x1024",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Tablet_768x1024.png",
+      "horizontal_overflow": false,
+      "text_overflow_detected": false,
+      "navigation_broken": false,
+      "issues": []
+    },
+    {
+      "device": "Mobile",
+      "viewport": "375x812",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\run_1de48e0f_v2_Mobile_375x812.png",
+      "horizontal_overflow": false,
+      "text_overflow_detected": false,
+      "navigation_broken": false,
+      "issues": []
+    }
+  ],
+  "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_1de48e0f_v2.html",
+  "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_run_1de48e0f_v2_1795020131.pdf",
+  "recommendations_summary": [
+    "[VIS-001] Tune section padding, font kerning, and grid margins.",
+    "[VIS-002] Verify CSS hex variables match reference palette."
+  ]
+}

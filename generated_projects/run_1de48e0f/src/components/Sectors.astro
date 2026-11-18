@@ -1,0 +1,63 @@
+---
+// src/components/Sectors.astro
+import { sectorsData } from '../data/homepage.js';
+---
+
+<section id="sectors" class="py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200">
+  <div class="container-custom">
+    
+    <div class="text-center max-w-2xl mx-auto mb-16">
+      <span class="text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2">
+        Core Competencies
+      </span>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-[#0A192F] tracking-tight font-heading">
+        Strategic Business Sectors
+      </h2>
+      <p class="text-slate-600 mt-4 text-base">
+        Deploying patient capital and engineering mastery across resilient foundational industries.
+      </p>
+    </div>
+
+    <!-- 4-Column Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {sectorsData.map((sec) => (
+        <article class="sector-card bg-white p-7 rounded-xl border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-[#C29B38] flex items-center justify-center font-bold">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700">
+                {sec.statsHighlight}
+              </span>
+            </div>
+
+            <h3 class="text-xl font-bold text-[#0A192F] mb-3 font-heading">
+              {sec.title}
+            </h3>
+
+            <p class="text-sm text-slate-600 leading-relaxed mb-6">
+              {sec.description}
+            </p>
+          </div>
+
+          <div>
+            <div class="border-t border-slate-100 pt-4">
+              <ul class="space-y-1.5">
+                {sec.capabilities.map((cap) => (
+                  <li class="text-xs text-slate-500 flex items-center space-x-2">
+                    <span class="w-1.5 h-1.5 rounded-full bg-[#C29B38]"></span>
+                    <span>{cap}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+  </div>
+</section>
