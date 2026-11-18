@@ -1,4 +1,4 @@
-# DevForge AI � Multi-Agent System for Automated Frontend Development and QA Testing
+# DevForge AI — Multi-Agent System for Automated Frontend Development and QA Testing
 
 An autonomous, collaborative two-agent engineering architecture designed to convert website reference designs into production-ready modular Astro applications and validate them using automated visual, responsive, and functional quality assurance.
 
@@ -48,7 +48,7 @@ Built for the **48-Hour Technical Assessment Challenge**, using **RDGCC.com** as
 
 2. **Agent 2 (UI and QA Testing Agent)**:
    - **Measurable Visual Testing**: OpenCV Structural Similarity Index (SSIM), pixel discrepancy percentage, contour bounding box overlays, and Vision LLM qualitative critique.
-   - **Responsive Testing**: Headless browser viewport validation at Desktop (1440×900), Tablet (768×1024), and Mobile (375×812). Checks horizontal overflow, text clipping, and navigation collapse.
+   - **Responsive Testing**: Headless browser viewport validation at Desktop (1440Ã—900), Tablet (768Ã—1024), and Mobile (375Ã—812). Checks horizontal overflow, text clipping, and navigation collapse.
    - **Functional Testing**: Verifies real DOM anchor destinations, interactive button accessibility, corporate contact form input validation, and image alt tags.
    - **Executive Reporting**: Produces structured JSON, interactive HTML ledgers, and ReportLab PDF audit reports.
 
@@ -78,61 +78,61 @@ Built for the **48-Hour Technical Assessment Challenge**, using **RDGCC.com** as
 
 ```
 AI-Agent-PoC/
-├── frontend/
-│   └── dashboard/                  # React + Vite + TypeScript + Tailwind Dashboard
-│       ├── src/
-│       │   ├── components/         # MetricCard, CodeViewer, ImageCompareSlider, Sidebar, Header
-│       │   ├── pages/              # 6 Complete Views (Dashboard, Input, A1, A2, Reports, Activity)
-│       │   ├── services/           # Typed API Client (fetch)
-│       │   └── types/              # TypeScript Interfaces matching Pydantic schemas
-│       ├── package.json
-│       ├── vite.config.ts
-│       └── tailwind.config.js
-│
-├── backend/
-│   ├── main.py                     # FastAPI Application Entrypoint & Static Server
-│   ├── requirements.txt            # Python Dependencies
-│   ├── agents/
-│   │   ├── agent1/                 # Design-to-Astro Generator (analyzer, generator, refactorer)
-│   │   └── agent2/                 # UI & QA Testing Agent (visual_diff, responsive, functional, reports)
-│   ├── orchestrator/               # Central Pipeline State Machine & Loop Controller
-│   ├── services/                   # LLMService, AstroService, FileService, PDFService
-│   ├── schemas/                    # Pydantic Schemas (agent1, agent2, orchestrator)
-│   ├── api/routes/                 # Modular API Endpoints (upload, agent1, agent2, orchestrator, reports)
-│   └── utils/                      # Logger & Security Path Containment
-│
-├── generated_projects/
-│   └── project_001/                # Complete Modular Generated RDGCC Astro Application
-│       ├── src/
-│       │   ├── components/         # 8 Discrete Astro Components
-│       │   ├── layouts/            # MainLayout.astro
-│       │   ├── pages/              # index.astro
-│       │   ├── data/               # homepage.js (Structured Content)
-│       │   ├── schemas/            # Sanity CMS Schemas
-│       │   └── styles/             # global.css
-│       ├── public/preview.html     # Pre-rendered HTML for Browser QA & iframe inspection
-│       ├── package.json
-│       └── astro.config.mjs
-│
-├── uploads/                        # Reference Mockups (rdgcc_reference.png, PDFs)
-├── reports/                        # QA Audit Outputs (HTML, PDF, Diffs, Screenshots)
-│   ├── diffs/                      # OpenCV Bounding Contour Heatmaps
-│   └── screenshots/                # Desktop, Tablet, and Mobile Viewports
-│
-├── tests/                          # Automated Pytest Verification Suite
-│   ├── test_agent1.py              # Agent 1 Unit & Integration Tests
-│   ├── test_agent2.py              # Agent 2 OpenCV, Responsive, & Functional Tests
-│   ├── test_api.py                 # FastAPI Route Integration Tests
-│   └── test_orchestrator.py        # Central Orchestrator Closed-Loop Test
-│
-├── docs/                           # Documentation
-│   ├── architecture.md             # In-depth System Architecture & Mermaid Diagrams
-│   ├── api_spec.md                 # REST API Specification
-│   └── presentation_guide.md       # 5–10 Minute Technical Demonstration Script
-│
-├── requirements.txt                # Root Dependencies
-├── .env.example                    # Environment Variables Template
-└── README.md                       # Master Documentation
+â”œâ”€â”€ frontend/
+â”‚   â””â”€â”€ dashboard/                  # React + Vite + TypeScript + Tailwind Dashboard
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ components/         # MetricCard, CodeViewer, ImageCompareSlider, Sidebar, Header
+â”‚       â”‚   â”œâ”€â”€ pages/              # 6 Complete Views (Dashboard, Input, A1, A2, Reports, Activity)
+â”‚       â”‚   â”œâ”€â”€ services/           # Typed API Client (fetch)
+â”‚       â”‚   â””â”€â”€ types/              # TypeScript Interfaces matching Pydantic schemas
+â”‚       â”œâ”€â”€ package.json
+â”‚       â”œâ”€â”€ vite.config.ts
+â”‚       â””â”€â”€ tailwind.config.js
+â”‚
+â”œâ”€â”€ backend/
+â”‚   â”œâ”€â”€ main.py                     # FastAPI Application Entrypoint & Static Server
+â”‚   â”œâ”€â”€ requirements.txt            # Python Dependencies
+â”‚   â”œâ”€â”€ agents/
+â”‚   â”‚   â”œâ”€â”€ agent1/                 # Design-to-Astro Generator (analyzer, generator, refactorer)
+â”‚   â”‚   â””â”€â”€ agent2/                 # UI & QA Testing Agent (visual_diff, responsive, functional, reports)
+â”‚   â”œâ”€â”€ orchestrator/               # Central Pipeline State Machine & Loop Controller
+â”‚   â”œâ”€â”€ services/                   # LLMService, AstroService, FileService, PDFService
+â”‚   â”œâ”€â”€ schemas/                    # Pydantic Schemas (agent1, agent2, orchestrator)
+â”‚   â”œâ”€â”€ api/routes/                 # Modular API Endpoints (upload, agent1, agent2, orchestrator, reports)
+â”‚   â””â”€â”€ utils/                      # Logger & Security Path Containment
+â”‚
+â”œâ”€â”€ generated_projects/
+â”‚   â””â”€â”€ project_001/                # Complete Modular Generated RDGCC Astro Application
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ components/         # 8 Discrete Astro Components
+â”‚       â”‚   â”œâ”€â”€ layouts/            # MainLayout.astro
+â”‚       â”‚   â”œâ”€â”€ pages/              # index.astro
+â”‚       â”‚   â”œâ”€â”€ data/               # homepage.js (Structured Content)
+â”‚       â”‚   â”œâ”€â”€ schemas/            # Sanity CMS Schemas
+â”‚       â”‚   â””â”€â”€ styles/             # global.css
+â”‚       â”œâ”€â”€ public/preview.html     # Pre-rendered HTML for Browser QA & iframe inspection
+â”‚       â”œâ”€â”€ package.json
+â”‚       â””â”€â”€ astro.config.mjs
+â”‚
+â”œâ”€â”€ uploads/                        # Reference Mockups (rdgcc_reference.png, PDFs)
+â”œâ”€â”€ reports/                        # QA Audit Outputs (HTML, PDF, Diffs, Screenshots)
+â”‚   â”œâ”€â”€ diffs/                      # OpenCV Bounding Contour Heatmaps
+â”‚   â””â”€â”€ screenshots/                # Desktop, Tablet, and Mobile Viewports
+â”‚
+â”œâ”€â”€ tests/                          # Automated Pytest Verification Suite
+â”‚   â”œâ”€â”€ test_agent1.py              # Agent 1 Unit & Integration Tests
+â”‚   â”œâ”€â”€ test_agent2.py              # Agent 2 OpenCV, Responsive, & Functional Tests
+â”‚   â”œâ”€â”€ test_api.py                 # FastAPI Route Integration Tests
+â”‚   â””â”€â”€ test_orchestrator.py        # Central Orchestrator Closed-Loop Test
+â”‚
+â”œâ”€â”€ docs/                           # Documentation
+â”‚   â”œâ”€â”€ architecture.md             # In-depth System Architecture & Mermaid Diagrams
+â”‚   â”œâ”€â”€ api_spec.md                 # REST API Specification
+â”‚   â””â”€â”€ presentation_guide.md       # 5â€“10 Minute Technical Demonstration Script
+â”‚
+â”œâ”€â”€ requirements.txt                # Root Dependencies
+â”œâ”€â”€ .env.example                    # Environment Variables Template
+â””â”€â”€ README.md                       # Master Documentation
 ```
 
 ---
@@ -203,7 +203,7 @@ Follow the step-by-step workflow detailed in [`docs/presentation_guide.md`](file
 3. **Agent 1 Workspace**: Inspect extracted brand colors, typography scales, detected sections, and review modular Astro components (`Hero.astro`, `Sectors.astro`, `Contact.astro`) alongside decoupled Sanity schemas.
 4. **Agent 2 Workspace**:
    - Compare the original RDGCC screenshot with the rendered Astro site using the **Split Slider** and **OpenCV Contour Heatmap**.
-   - Toggle viewports across Desktop (1440×900), Tablet (768×1024), and Mobile (375×812).
+   - Toggle viewports across Desktop (1440Ã—900), Tablet (768Ã—1024), and Mobile (375Ã—812).
    - Inspect the Playwright functional assertion ledger.
 5. **QA Reports**: Download the executive ReportLab PDF report and standalone HTML audit ledger.
 6. **Agent Activity**: Review real-time event logs and the multi-iteration self-correction feedback loop.
@@ -230,3 +230,6 @@ Follow the step-by-step workflow detailed in [`docs/presentation_guide.md`](file
 
 ## 7. License
 MIT License. Developed for technical assessment demonstration.
+
+## By Thilak Ragav M
+
