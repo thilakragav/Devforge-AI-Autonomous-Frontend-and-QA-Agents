@@ -1,0 +1,119 @@
+---
+// src/components/Contact.astro
+import { contactDetails } from '../data/homepage.js';
+---
+
+<section id="contact" class="py-20 md:py-28 bg-[#F8FAFC] border-b border-slate-200">
+  <div class="container-custom">
+    
+    <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+      <div class="grid grid-cols-1 md:grid-cols-12">
+        
+        <!-- Info Column -->
+        <div class="bg-[#0A192F] text-white p-8 md:p-12 md:col-span-5 flex flex-col justify-between">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-widest text-[#C29B38] block mb-2">
+              Regional Presence
+            </span>
+            <h2 class="text-2xl md:text-3xl font-extrabold text-white mb-6 font-heading">
+              Initiate Inquiries
+            </h2>
+            <p class="text-slate-300 text-sm leading-relaxed mb-8">
+              Connect directly with our institutional investment and project development leadership.
+            </p>
+
+            <div class="space-y-4 text-xs text-slate-300">
+              <div>
+                <strong class="text-white block mb-0.5">Headquarters:</strong>
+                {contactDetails.headquarters}
+              </div>
+              <div>
+                <strong class="text-white block mb-0.5">Telephone:</strong>
+                {contactDetails.phone}
+              </div>
+              <div>
+                <strong class="text-white block mb-0.5">Direct Correspondence:</strong>
+                {contactDetails.email}
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-800 text-[11px] text-slate-400">
+            Confidentiality assured under standard institutional covenants.
+          </div>
+        </div>
+
+        <!-- Interactive Form Column (For Functional QA Testing) -->
+        <div class="p-8 md:p-12 md:col-span-7">
+          <form id="contact-form" class="space-y-5" onsubmit="event.preventDefault(); alert('Inquiry submitted successfully.');">
+            <div>
+              <label for="contact-name" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                Full Name *
+              </label>
+              <input 
+                type="text" 
+                id="contact-name" 
+                name="name" 
+                required 
+                placeholder="Sheikh / Executive Name"
+                class="w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition"
+              />
+            </div>
+
+            <div>
+              <label for="contact-email" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                Corporate Email *
+              </label>
+              <input 
+                type="email" 
+                id="contact-email" 
+                name="email" 
+                required 
+                placeholder="executive@institution.com"
+                class="w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition"
+              />
+            </div>
+
+            <div>
+              <label for="contact-sector" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                Area of Interest *
+              </label>
+              <select 
+                id="contact-sector" 
+                name="sector" 
+                class="w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition bg-white"
+              >
+                {contactDetails.inquiryTypes.map((t) => (
+                  <option value={t}>{t}</option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label for="contact-message" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-1.5">
+                Brief Proposal / Inquiries
+              </label>
+              <textarea 
+                id="contact-message" 
+                name="message" 
+                rows="3" 
+                placeholder="Summary of strategic inquiry..."
+                class="w-full px-3.5 py-2.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#C29B38] focus:border-transparent transition"
+              ></textarea>
+            </div>
+
+            <button 
+              type="submit" 
+              id="submit-inquiry-btn" 
+              class="btn-primary w-full text-center"
+            >
+              Submit Strategic Inquiry
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>

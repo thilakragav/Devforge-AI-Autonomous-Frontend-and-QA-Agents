@@ -1,0 +1,72 @@
+---
+// src/components/Footer.astro
+import { siteSettings, navigationMenu } from '../data/homepage.js';
+---
+
+<footer class="bg-[#050C1A] text-slate-400 py-16 border-t border-slate-800">
+  <div class="container-custom">
+    
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
+      
+      <!-- Brand Summary -->
+      <div class="md:col-span-5">
+        <div class="flex items-center space-x-3 mb-4">
+          <div class="w-8 h-8 rounded bg-[#C29B38] text-white font-bold flex items-center justify-center text-sm">
+            R
+          </div>
+          <span class="text-white font-heading font-extrabold text-lg tracking-tight">
+            {siteSettings.companyName}
+          </span>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed max-w-sm mb-6">
+          Regional holding corporation advancing sustainable prosperity, industrial independence, and institutional excellence across the Gulf Cooperation Council.
+        </p>
+        <div class="text-xs text-slate-500">
+          Regional Offices: {siteSettings.regionalOffices.join(" • ")}
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="md:col-span-3">
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading">
+          Navigation
+        </h4>
+        <ul class="space-y-2 text-xs">
+          {navigationMenu.map((item) => (
+            <li>
+              <a href={item.href} class="hover:text-amber-400 transition-colors">
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Compliance & Governance -->
+      <div class="md:col-span-4">
+        <h4 class="text-xs font-bold text-white uppercase tracking-wider mb-4 font-heading">
+          Governance & Standards
+        </h4>
+        <p class="text-xs text-slate-400 leading-relaxed mb-4">
+          All investments and operational mandates adhere to strict sovereign regulatory compliances, CMA guidelines, and ESG disclosure standards.
+        </p>
+        <div class="inline-flex items-center px-3 py-1.5 rounded bg-slate-900 border border-slate-800 text-[11px] text-amber-400">
+          ISO 9001:2015 & ISO 14001 Certified
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pt-8 border-t border-slate-900 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between">
+      <div>
+        &copy; {new Date().getFullYear()} {siteSettings.companyName}. All Rights Reserved.
+      </div>
+      <div class="flex space-x-6 mt-4 sm:mt-0">
+        <a href="#about" class="hover:text-slate-400 transition-colors">Privacy Charter</a>
+        <a href="#about" class="hover:text-slate-400 transition-colors">Terms of Investment</a>
+        <a href="#contact" class="hover:text-slate-400 transition-colors">Security Disclosures</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
