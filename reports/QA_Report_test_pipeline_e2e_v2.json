@@ -1,7 +1,7 @@
 {
   "project_id": "test_pipeline_e2e",
   "iteration": 2,
-  "timestamp": "2026-11-18 08:18:05 UTC",
+  "timestamp": "2026-11-18 14:55:01 UTC",
   "total_tests": 12,
   "passed_tests": 10,
   "failed_tests": 2,
@@ -20,7 +20,7 @@
       "issue_description": "Layout structural discrepancy detected.",
       "recommendation": "Tune section padding, font kerning, and grid margins.",
       "affected_component": "MainLayout.astro",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png"
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png"
     },
     {
       "test_id": "VIS-002",
@@ -59,7 +59,7 @@
       "issue_description": null,
       "recommendation": null,
       "affected_component": "MainLayout.astro",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png"
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png"
     },
     {
       "test_id": "RESP-002",
@@ -72,7 +72,7 @@
       "issue_description": null,
       "recommendation": null,
       "affected_component": "Sectors.astro",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png"
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png"
     },
     {
       "test_id": "RESP-003",
@@ -85,7 +85,7 @@
       "issue_description": null,
       "recommendation": null,
       "affected_component": "Header.astro",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png"
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png"
     },
     {
       "test_id": "FUNC-001",
@@ -170,16 +170,16 @@
     "ssim_score": 0.7722,
     "pixel_diff_percentage": 22.22,
     "mismatched_pixel_count": 288010,
-    "diff_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png",
-    "reference_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
-    "generated_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
+    "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png",
+    "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+    "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
     "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.772). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
   },
   "responsive_audits": [
     {
       "device": "Desktop",
       "viewport": "1440x900",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
       "horizontal_overflow": false,
       "text_overflow_detected": false,
       "navigation_broken": false,
@@ -188,7 +188,7 @@
     {
       "device": "Tablet",
       "viewport": "768x1024",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png",
       "horizontal_overflow": false,
       "text_overflow_detected": false,
       "navigation_broken": false,
@@ -197,15 +197,15 @@
     {
       "device": "Mobile",
       "viewport": "375x812",
-      "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png",
+      "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png",
       "horizontal_overflow": false,
       "text_overflow_detected": false,
       "navigation_broken": false,
       "issues": []
     }
   ],
-  "html_report_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2.html",
-  "pdf_report_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2_1794970085.pdf",
+  "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2.html",
+  "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2_1795013701.pdf",
   "recommendations_summary": [
     "[VIS-001] Tune section padding, font kerning, and grid margins.",
     "[VIS-002] Verify CSS hex variables match reference palette."

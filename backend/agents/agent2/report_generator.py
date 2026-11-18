@@ -5,7 +5,7 @@ Assembles structured QAReport, interactive HTML reports, and executive PDF repor
 import os
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import List, Optional
 
 from backend.schemas.agent2_schema import (
@@ -63,7 +63,7 @@ class QAReportGenerator:
         report = QAReport(
             project_id=project_id,
             iteration=iteration,
-            timestamp=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+            timestamp=datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC"),
             total_tests=total,
             passed_tests=passed,
             failed_tests=failed,

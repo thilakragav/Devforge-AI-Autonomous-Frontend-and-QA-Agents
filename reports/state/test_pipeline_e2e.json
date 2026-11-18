@@ -4,7 +4,7 @@
   "status": "COMPLETED",
   "current_iteration": 2,
   "max_iterations": 2,
-  "design_input_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+  "design_input_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
   "figma_url": null,
   "design_analysis": {
     "project_name": "RDGCC Corporate Regional Portal",
@@ -432,7 +432,7 @@
     {
       "project_id": "test_pipeline_e2e",
       "iteration": 1,
-      "timestamp": "2026-11-18 08:17:58 UTC",
+      "timestamp": "2026-11-18 14:54:55 UTC",
       "total_tests": 12,
       "passed_tests": 10,
       "failed_tests": 2,
@@ -451,7 +451,7 @@
           "issue_description": "Layout structural discrepancy detected.",
           "recommendation": "Tune section padding, font kerning, and grid margins.",
           "affected_component": "MainLayout.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v1.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v1.png"
         },
         {
           "test_id": "VIS-002",
@@ -490,7 +490,7 @@
           "issue_description": null,
           "recommendation": null,
           "affected_component": "MainLayout.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Desktop_1440x900.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Desktop_1440x900.png"
         },
         {
           "test_id": "RESP-002",
@@ -503,7 +503,7 @@
           "issue_description": null,
           "recommendation": null,
           "affected_component": "Sectors.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Tablet_768x1024.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Tablet_768x1024.png"
         },
         {
           "test_id": "RESP-003",
@@ -516,7 +516,7 @@
           "issue_description": null,
           "recommendation": null,
           "affected_component": "Header.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Mobile_375x812.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Mobile_375x812.png"
         },
         {
           "test_id": "FUNC-001",
@@ -601,16 +601,16 @@
         "ssim_score": 0.7722,
         "pixel_diff_percentage": 22.22,
         "mismatched_pixel_count": 288010,
-        "diff_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v1.png",
-        "reference_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
-        "generated_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Desktop_1440x900.png",
+        "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v1.png",
+        "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+        "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Desktop_1440x900.png",
         "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.772). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
       },
       "responsive_audits": [
         {
           "device": "Desktop",
           "viewport": "1440x900",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Desktop_1440x900.png",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Desktop_1440x900.png",
           "horizontal_overflow": false,
           "text_overflow_detected": false,
           "navigation_broken": false,
@@ -619,7 +619,7 @@
         {
           "device": "Tablet",
           "viewport": "768x1024",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Tablet_768x1024.png",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Tablet_768x1024.png",
           "horizontal_overflow": false,
           "text_overflow_detected": false,
           "navigation_broken": false,
@@ -628,15 +628,15 @@
         {
           "device": "Mobile",
           "viewport": "375x812",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Mobile_375x812.png",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v1_Mobile_375x812.png",
           "horizontal_overflow": false,
           "text_overflow_detected": false,
           "navigation_broken": false,
           "issues": []
         }
       ],
-      "html_report_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v1.html",
-      "pdf_report_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v1_1794970078.pdf",
+      "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v1.html",
+      "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v1_1795013695.pdf",
       "recommendations_summary": [
         "[VIS-001] Tune section padding, font kerning, and grid margins.",
         "[VIS-002] Verify CSS hex variables match reference palette."
@@ -645,7 +645,7 @@
     {
       "project_id": "test_pipeline_e2e",
       "iteration": 2,
-      "timestamp": "2026-11-18 08:18:05 UTC",
+      "timestamp": "2026-11-18 14:55:01 UTC",
       "total_tests": 12,
       "passed_tests": 10,
       "failed_tests": 2,
@@ -664,7 +664,7 @@
           "issue_description": "Layout structural discrepancy detected.",
           "recommendation": "Tune section padding, font kerning, and grid margins.",
           "affected_component": "MainLayout.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png"
         },
         {
           "test_id": "VIS-002",
@@ -703,7 +703,7 @@
           "issue_description": null,
           "recommendation": null,
           "affected_component": "MainLayout.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png"
         },
         {
           "test_id": "RESP-002",
@@ -716,7 +716,7 @@
           "issue_description": null,
           "recommendation": null,
           "affected_component": "Sectors.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png"
         },
         {
           "test_id": "RESP-003",
@@ -729,7 +729,7 @@
           "issue_description": null,
           "recommendation": null,
           "affected_component": "Header.astro",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png"
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png"
         },
         {
           "test_id": "FUNC-001",
@@ -814,16 +814,16 @@
         "ssim_score": 0.7722,
         "pixel_diff_percentage": 22.22,
         "mismatched_pixel_count": 288010,
-        "diff_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png",
-        "reference_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
-        "generated_image_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
+        "diff_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\diffs\\diff_test_pipeline_e2e_v2.png",
+        "reference_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png",
+        "generated_image_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
         "llm_visual_critique": "Noticeable layout deviations observed (SSIM: 0.772). Hero section height ratio and sector card spacing require adjustment. Typography sizes in H1 and H2 appear larger than original layout specifications."
       },
       "responsive_audits": [
         {
           "device": "Desktop",
           "viewport": "1440x900",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Desktop_1440x900.png",
           "horizontal_overflow": false,
           "text_overflow_detected": false,
           "navigation_broken": false,
@@ -832,7 +832,7 @@
         {
           "device": "Tablet",
           "viewport": "768x1024",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Tablet_768x1024.png",
           "horizontal_overflow": false,
           "text_overflow_detected": false,
           "navigation_broken": false,
@@ -841,15 +841,15 @@
         {
           "device": "Mobile",
           "viewport": "375x812",
-          "screenshot_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png",
+          "screenshot_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\screenshots\\test_pipeline_e2e_v2_Mobile_375x812.png",
           "horizontal_overflow": false,
           "text_overflow_detected": false,
           "navigation_broken": false,
           "issues": []
         }
       ],
-      "html_report_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2.html",
-      "pdf_report_path": "C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2_1794970085.pdf",
+      "html_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2.html",
+      "pdf_report_path": "C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\reports\\QA_Report_test_pipeline_e2e_v2_1795013701.pdf",
       "recommendations_summary": [
         "[VIS-001] Tune section padding, font kerning, and grid margins.",
         "[VIS-002] Verify CSS hex variables match reference palette."
@@ -872,448 +872,448 @@
   ],
   "logs": [
     {
-      "timestamp": "2026-11-18T08:17:50.592358",
+      "timestamp": "2026-11-18T14:54:51.169431+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
-      "message": "Initiating design analysis. File: C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\uploads\\rdgcc_reference.png, Figma: None",
+      "message": "Initiating design analysis. File: C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png, Figma: None",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.594360",
+      "timestamp": "2026-11-18T14:54:51.170431+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Prepared reference image for visual analysis: rdgcc_reference.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.594360",
+      "timestamp": "2026-11-18T14:54:51.170431+00:00",
       "stage": "ANALYSIS",
       "agent": "AGENT_1",
       "message": "Starting design analysis using DEMO_DETERMINISTIC (builtin-heuristic-engine)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.594360",
+      "timestamp": "2026-11-18T14:54:51.172432+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Analysis complete: Identified 8 sections, 7 color tokens, and 6 font scales.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.597277",
+      "timestamp": "2026-11-18T14:54:51.175930+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_proj_001 (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.597277",
+      "timestamp": "2026-11-18T14:54:51.175930+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.606743",
+      "timestamp": "2026-11-18T14:54:51.185396+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_astro_val (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.606743",
+      "timestamp": "2026-11-18T14:54:51.185396+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.637246",
+      "timestamp": "2026-11-18T14:54:51.214692+00:00",
       "stage": "ASTRO_GEN",
       "agent": "AGENT_1",
       "message": "Wrote 11 components and assets to test_astro_val",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.646132",
+      "timestamp": "2026-11-18T14:54:51.221387+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_refactor (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.646132",
+      "timestamp": "2026-11-18T14:54:51.221387+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.646132",
+      "timestamp": "2026-11-18T14:54:51.221387+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Applying QA corrections for iteration 1 -> new version v2. Targets: ['Hero.astro']",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.646132",
+      "timestamp": "2026-11-18T14:54:51.221387+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Refactoring Hero.astro: tuning responsive container padding and headline clamp.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.646132",
+      "timestamp": "2026-11-18T14:54:51.222006+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Completed refactor cycle v2.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:50.650498",
+      "timestamp": "2026-11-18T14:54:51.227588+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Comparing reference (rdgcc_reference.png) with rendered site (rdgcc_reference.png)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.031160",
+      "timestamp": "2026-11-18T14:54:51.553083+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Visual comparison completed: SSIM=1.0000, Pixel Discrepancy=0.00%, 3 tests logged.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.036210",
+      "timestamp": "2026-11-18T14:54:51.559789+00:00",
       "stage": "RESPONSIVE_QA",
       "agent": "AGENT_2",
       "message": "Running responsive layout audit across 3 viewports.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.037300",
+      "timestamp": "2026-11-18T14:54:51.562548+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Running functional test suite against DOM at http://localhost:8000/api/preview/test",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.038496",
+      "timestamp": "2026-11-18T14:54:51.563655+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Completed functional test execution. 6/6 tests passed.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.043814",
+      "timestamp": "2026-11-18T14:54:51.566899+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Running functional test suite against DOM at http://localhost:8000",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.044341",
+      "timestamp": "2026-11-18T14:54:51.567483+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Completed functional test execution. 4/6 tests passed.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.067093",
+      "timestamp": "2026-11-18T14:54:51.590879+00:00",
       "stage": "PDF_EXPORT",
       "agent": "AGENT_2",
-      "message": "Generated executive QA PDF: QA_Report_test_report_gen_v1_1794970071.pdf",
+      "message": "Generated executive QA PDF: QA_Report_test_report_gen_v1_1795013691.pdf",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.069095",
+      "timestamp": "2026-11-18T14:54:51.593339+00:00",
       "stage": "REPORT_GEN",
       "agent": "AGENT_2",
       "message": "Generated QA Report: 6 tests (4 passed, 2 failed, 0 critical). HTML: QA_Report_test_report_gen_v1.html",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.086760",
+      "timestamp": "2026-11-18T14:54:51.610727+00:00",
       "stage": "UPLOAD",
       "agent": "SYSTEM",
-      "message": "Saved upload: test_upload_2.png (16 bytes)",
+      "message": "Saved upload: test_upload_4.png (16 bytes)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.219409",
+      "timestamp": "2026-11-18T14:54:51.646791+00:00",
       "stage": "ORCHESTRATOR",
       "agent": "ORCHESTRATOR",
       "message": "Starting automated execution pipeline for run: test_pipeline_e2e",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.220462",
+      "timestamp": "2026-11-18T14:54:51.646791+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Step 1/17: Delegating reference visual asset to Agent 1.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.221609",
+      "timestamp": "2026-11-18T14:54:51.647818+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
-      "message": "Initiating design analysis. File: C:\\Users\\sunda\\.gemini\\antigravity\\scratch\\AI-Agent-PoC\\uploads\\rdgcc_reference.png, Figma: None",
+      "message": "Initiating design analysis. File: C:\\Users\\sunda\\OneDrive\\Documents\\AI-Agent-PoC\\uploads\\rdgcc_reference.png, Figma: None",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.222718",
+      "timestamp": "2026-11-18T14:54:51.647818+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Prepared reference image for visual analysis: rdgcc_reference.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.222718",
+      "timestamp": "2026-11-18T14:54:51.647818+00:00",
       "stage": "ANALYSIS",
       "agent": "AGENT_1",
       "message": "Starting design analysis using DEMO_DETERMINISTIC (builtin-heuristic-engine)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.222718",
+      "timestamp": "2026-11-18T14:54:51.647818+00:00",
       "stage": "ANALYZER",
       "agent": "AGENT_1",
       "message": "Analysis complete: Identified 8 sections, 7 color tokens, and 6 font scales.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.223661",
+      "timestamp": "2026-11-18T14:54:51.648817+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Step 4/17: Agent 1 synthesizing modular Astro components.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.223661",
+      "timestamp": "2026-11-18T14:54:51.648817+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Generating modular Astro project: test_pipeline_e2e (v1)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.223661",
+      "timestamp": "2026-11-18T14:54:51.648817+00:00",
       "stage": "GENERATOR",
       "agent": "AGENT_1",
       "message": "Successfully assembled manifest with 11 Astro files, structured data, and Sanity schemas.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.224677",
+      "timestamp": "2026-11-18T14:54:51.649818+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Step 5/17: Materializing Astro project to disk.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.248103",
+      "timestamp": "2026-11-18T14:54:51.670550+00:00",
       "stage": "ASTRO_GEN",
       "agent": "AGENT_1",
       "message": "Wrote 11 components and assets to test_pipeline_e2e",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.254012",
+      "timestamp": "2026-11-18T14:54:51.676550+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Beginning QA Testing Iteration 1/2",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:51.254012",
+      "timestamp": "2026-11-18T14:54:51.676550+00:00",
       "stage": "PIPELINE",
       "agent": "AGENT_2",
       "message": "Step 7/17: Capturing viewports (1440x900, 768x1024, 375x812) for v1",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:53.523207",
+      "timestamp": "2026-11-18T14:54:53.082712+00:00",
       "stage": "BROWSER",
       "agent": "AGENT_2",
       "message": "Captured Desktop (1440x900) using headless browser: test_pipeline_e2e_v1_Desktop_1440x900.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:55.709944",
+      "timestamp": "2026-11-18T14:54:54.390797+00:00",
       "stage": "BROWSER",
       "agent": "AGENT_2",
       "message": "Captured Tablet (768x1024) using headless browser: test_pipeline_e2e_v1_Tablet_768x1024.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.121329",
+      "timestamp": "2026-11-18T14:54:55.419419+00:00",
       "stage": "BROWSER",
       "agent": "AGENT_2",
       "message": "Captured Mobile (375x812) using headless browser: test_pipeline_e2e_v1_Mobile_375x812.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.122350",
+      "timestamp": "2026-11-18T14:54:55.419419+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Comparing reference (rdgcc_reference.png) with rendered site (test_pipeline_e2e_v1_Desktop_1440x900.png)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.448611",
+      "timestamp": "2026-11-18T14:54:55.832323+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Visual comparison completed: SSIM=0.7722, Pixel Discrepancy=22.22%, 3 tests logged.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.450613",
+      "timestamp": "2026-11-18T14:54:55.834324+00:00",
       "stage": "RESPONSIVE_QA",
       "agent": "AGENT_2",
       "message": "Running responsive layout audit across 3 viewports.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.450613",
+      "timestamp": "2026-11-18T14:54:55.834324+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Running functional test suite against DOM at http://127.0.0.1:8000/api/preview/test_pipeline_e2e",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.460616",
+      "timestamp": "2026-11-18T14:54:55.844314+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Completed functional test execution. 6/6 tests passed.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.490898",
+      "timestamp": "2026-11-18T14:54:55.873518+00:00",
       "stage": "PDF_EXPORT",
       "agent": "AGENT_2",
-      "message": "Generated executive QA PDF: QA_Report_test_pipeline_e2e_v1_1794970078.pdf",
+      "message": "Generated executive QA PDF: QA_Report_test_pipeline_e2e_v1_1795013695.pdf",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.493908",
+      "timestamp": "2026-11-18T14:54:55.875542+00:00",
       "stage": "REPORT_GEN",
       "agent": "AGENT_2",
       "message": "Generated QA Report: 12 tests (10 passed, 2 failed, 0 critical). HTML: QA_Report_test_pipeline_e2e_v1.html",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.496894",
+      "timestamp": "2026-11-18T14:54:55.877526+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Transmitting 1 QA correction directives to Agent 1 for iteration 2.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.496894",
+      "timestamp": "2026-11-18T14:54:55.877526+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Applying QA corrections for iteration 1 -> new version v2. Targets: ['MainLayout.astro']",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.496894",
+      "timestamp": "2026-11-18T14:54:55.877526+00:00",
       "stage": "REFACTOR",
       "agent": "AGENT_1",
       "message": "Completed refactor cycle v2.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.537479",
+      "timestamp": "2026-11-18T14:54:55.910962+00:00",
       "stage": "ASTRO_GEN",
       "agent": "AGENT_1",
       "message": "Wrote 11 components and assets to test_pipeline_e2e",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.540476",
+      "timestamp": "2026-11-18T14:54:55.913964+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Beginning QA Testing Iteration 2/2",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:17:58.540476",
+      "timestamp": "2026-11-18T14:54:55.913964+00:00",
       "stage": "PIPELINE",
       "agent": "AGENT_2",
       "message": "Step 7/17: Capturing viewports (1440x900, 768x1024, 375x812) for v2",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:01.049827",
+      "timestamp": "2026-11-18T14:54:57.482238+00:00",
       "stage": "BROWSER",
       "agent": "AGENT_2",
       "message": "Captured Desktop (1440x900) using headless browser: test_pipeline_e2e_v2_Desktop_1440x900.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:03.142990",
+      "timestamp": "2026-11-18T14:54:59.245150+00:00",
       "stage": "BROWSER",
       "agent": "AGENT_2",
       "message": "Captured Tablet (768x1024) using headless browser: test_pipeline_e2e_v2_Tablet_768x1024.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.358786",
+      "timestamp": "2026-11-18T14:55:01.117233+00:00",
       "stage": "BROWSER",
       "agent": "AGENT_2",
       "message": "Captured Mobile (375x812) using headless browser: test_pipeline_e2e_v2_Mobile_375x812.png",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.359786",
+      "timestamp": "2026-11-18T14:55:01.117233+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Comparing reference (rdgcc_reference.png) with rendered site (test_pipeline_e2e_v2_Desktop_1440x900.png)",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.661435",
+      "timestamp": "2026-11-18T14:55:01.675822+00:00",
       "stage": "VISUAL_DIFF",
       "agent": "AGENT_2",
       "message": "Visual comparison completed: SSIM=0.7722, Pixel Discrepancy=22.22%, 3 tests logged.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.663566",
+      "timestamp": "2026-11-18T14:55:01.679818+00:00",
       "stage": "RESPONSIVE_QA",
       "agent": "AGENT_2",
       "message": "Running responsive layout audit across 3 viewports.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.663566",
+      "timestamp": "2026-11-18T14:55:01.679818+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Running functional test suite against DOM at http://127.0.0.1:8000/api/preview/test_pipeline_e2e",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.669266",
+      "timestamp": "2026-11-18T14:55:01.698881+00:00",
       "stage": "FUNC_QA",
       "agent": "AGENT_2",
       "message": "Completed functional test execution. 6/6 tests passed.",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.698883",
+      "timestamp": "2026-11-18T14:55:01.752396+00:00",
       "stage": "PDF_EXPORT",
       "agent": "AGENT_2",
-      "message": "Generated executive QA PDF: QA_Report_test_pipeline_e2e_v2_1794970085.pdf",
+      "message": "Generated executive QA PDF: QA_Report_test_pipeline_e2e_v2_1795013701.pdf",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.700883",
+      "timestamp": "2026-11-18T14:55:01.755397+00:00",
       "stage": "REPORT_GEN",
       "agent": "AGENT_2",
       "message": "Generated QA Report: 12 tests (10 passed, 2 failed, 0 critical). HTML: QA_Report_test_pipeline_e2e_v2.html",
       "level": "INFO"
     },
     {
-      "timestamp": "2026-11-18T08:18:05.701884",
+      "timestamp": "2026-11-18T14:55:01.758397+00:00",
       "stage": "PIPELINE",
       "agent": "ORCHESTRATOR",
       "message": "Reached maximum correction iterations (2). Finalizing report.",
@@ -1322,6 +1322,6 @@
   ],
   "preview_url": "http://127.0.0.1:8000/api/preview/test_pipeline_e2e",
   "error_message": null,
-  "created_at": "2026-11-18T08:17:51.219409",
-  "updated_at": "2026-11-18T08:18:05.701884"
+  "created_at": "2026-11-18T14:54:51.645456+00:00",
+  "updated_at": "2026-11-18T14:55:01.759398+00:00"
 }

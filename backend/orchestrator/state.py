@@ -3,7 +3,7 @@ Orchestrator State Manager
 Maintains in-memory run states and persists execution history.
 """
 from typing import Dict, Optional, List
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 import json
 
@@ -25,8 +25,8 @@ class OrchestratorStateManager:
             max_iterations=max_iterations,
             design_input_path=design_input_path,
             figma_url=figma_url,
-            created_at=datetime.utcnow().isoformat(),
-            updated_at=datetime.utcnow().isoformat(),
+            created_at=datetime.now(timezone.utc).isoformat(),
+            updated_at=datetime.now(timezone.utc).isoformat(),
             logs=global_log_buffer.get_logs()
         )
         self._runs[run_id] = state
@@ -50,7 +50,7 @@ class OrchestratorStateManager:
         return None
 
     def update_run(self, state: OrchestratorRunState):
-        state.updated_at = datetime.utcnow().isoformat()
+        state.updated_at = datetime.now(timezone.utc).isoformat()
         state.logs = global_log_buffer.get_logs()
         self._runs[state.run_id] = state
         self.save_to_disk(state.run_id)

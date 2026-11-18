@@ -28,7 +28,7 @@ def get_report_json(project_id: str, iteration: int = 1):
 
 
 @router.get("/{project_id}/download")
-def download_report(project_id: str, format: str = Query(default="pdf", regex="^(pdf|html|json)$"), iteration: int = 1):
+def download_report(project_id: str, format: str = Query(default="pdf", pattern="^(pdf|html|json)$"), iteration: int = 1):
     if format == "pdf":
         matches = list(REPORTS_DIR.glob(f"QA_Report_{project_id}_*.pdf"))
         if not matches:

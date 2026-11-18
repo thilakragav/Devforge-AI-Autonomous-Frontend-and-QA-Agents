@@ -3,7 +3,7 @@ PDF Service - Generates Executive QA Reports using ReportLab
 """
 import os
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional
 
 from reportlab.lib.pagesizes import letter
@@ -28,7 +28,7 @@ class PDFService:
         Creates an executive-grade PDF QA audit report.
         Returns the absolute path to the generated PDF.
         """
-        filename = f"QA_Report_{report.project_id}_v{report.iteration}_{int(datetime.utcnow().timestamp())}.pdf"
+        filename = f"QA_Report_{report.project_id}_v{report.iteration}_{int(datetime.now(timezone.utc).timestamp())}.pdf"
         file_path = self.output_dir / filename
 
         doc = SimpleDocTemplate(
